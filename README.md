@@ -1,4 +1,4 @@
-# README
+# Interview Bank and Technical Discussions By GreenHat
 
 <div data-full-width="false">
 
