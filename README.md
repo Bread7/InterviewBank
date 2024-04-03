@@ -1,9 +1,11 @@
-# Interview Bank and Technical Discussions
+# Interview Bank and Technical Discussions By GreenHat
 
 <figure>
 <a href="https://github.com/Bread7/InterviewBank"><img src=".gitbook/assets/Greenhat2.gif"></a>
 <figcaption>Animation Credit: <a href="https://www.vecteezy.com/free-videos/technology"> vecteezy</a></figcaption>
 </figure>
+
+## Introduction
 
 Welcome! We are greenhats, a group of tech enthusiasts interested in cybersecurity and anything IT related. Currently, we are all students studying in Singapore Institute of Technology (SIT) that will graduate together as class of 2026. 
 
@@ -13,8 +15,11 @@ Please feel free to share with others and give a star at our [![GitHub](https://
 
 For a better viewing experience: [![GitBook](https://img.shields.io/badge/GitBook-7B36ED?style=for-the-badge&logo=gitbook&logoColor=white)](https://greenhat.gitbook.io/interview-bank/)
 
+## Issues and Questions
 
 For any comments, regarding to the contents we have posted, feel free to create a pull request at our [![GitHub](https://img.shields.io/badge/-GitHub-000000?style=flat&logo=github&logoColor=FFFFFF)](https://github.com/Bread7/InterviewBank) to discuss further.
+
+## Contact Us
 
 Any enquiries or if you wish to contact us privately, this is our email <greenhatsit@gmail.com>
 
