@@ -12,13 +12,13 @@ Welcome! We are greenhats, a group of tech enthusiasts interested in cybersecuri
 
 In this web, we aim to explore our thoughts on some of the most common interview questions and have in depth discussions regarding the new trends that is happening in the world of technology. Everyday, there will be new topic generated and we hope you can enjoy our content that we have written down.
 
-Please feel free to share with others and give a star at our [![GitHub](https://img.shields.io/badge/GitHub-bread?style=flat&logo=github&logoColor=blue&labelColor=white&color=black)](https://github.com/Bread7/InterviewBank)
+Please feel free to share with others and give a star at our [![GitHub](https://img.shields.io/badge/GitHub-bread?style=flat&logo=github&logoColor=blue&color=white)](https://github.com/Bread7/InterviewBank)
 
-For a better viewing experience: [![GitBook](https://img.shields.io/badge/GitBook-bread?style=flat&logo=gitbook&logoColor=blue&labelColor=white&color=black)](https://greenhat.gitbook.io/interview-bank/)
+For a better viewing experience: [![GitBook](https://img.shields.io/badge/GitBook-bread?style=flat&logo=gitbook&logoColor=blue&color=white)](https://greenhat.gitbook.io/interview-bank/)
 
 ## Issues and Questions
 
-For any comments, regarding to the contents we have posted, feel free to create a pull request at our [![GitHub](https://img.shields.io/badge/GitHub-bread?style=flat&logo=github&logoColor=blue&labelColor=white&color=black)](https://github.com/Bread7/InterviewBank) to discuss further.
+For any comments, regarding to the contents we have posted, feel free to create a pull request at our [![GitHub](https://img.shields.io/badge/GitHub-bread?style=flat&logo=github&logoColor=blue&color=white)](https://github.com/Bread7/InterviewBank) to discuss further.
 
 ## Contact Us
 
