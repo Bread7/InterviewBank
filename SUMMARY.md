@@ -2,7 +2,7 @@
 
 ## Web
 
-* [Persistent Connection and Non Persistent](README.md)
+* [Persistent Connection and Non Persistent](web/connection-persistence.md)
 * [CDN](web/cdn.md)
 * [Code Review](web/code-review.md)
 * [JWT](web/jwt.md)
