@@ -1,0 +1,2 @@
+# Same-origin Policy (SOP)
+
