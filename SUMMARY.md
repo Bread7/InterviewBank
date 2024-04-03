@@ -1,5 +1,7 @@
 # Table of contents
 
+* [README](README.md)
+
 ## Web
 
 * [Persistent Connection and Non Persistent](web/connection-persistence.md)
