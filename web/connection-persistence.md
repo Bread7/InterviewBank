@@ -10,11 +10,11 @@ Interview question:
 
 Http protocol used the `request` - `Response` mode, when client request, the server will then response.
 
-<figure><img src=".gitbook/assets/spaces_vqEORPskq4NZR6tIM7H1_uploads_ODT4YjNHks4RfDivZAjK_image.webp" alt="" width="116"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/spaces_vqEORPskq4NZR6tIM7H1_uploads_ODT4YjNHks4RfDivZAjK_image.webp" alt="" width="116"><figcaption></figcaption></figure>
 
 Since HTTP is implemented based on the TCP transport protocol, the client and server need to establish a TCP connection before HTTP communication can occur. Then, the client sends an HTTP request, and once the server receives it, it returns a response. This completes the "request-response" pattern, after which the TCP connection is released.
 
-<figure><img src=".gitbook/assets/spaces_vqEORPskq4NZR6tIM7H1_uploads_PxSsFmCaXoAAAePyV8h9_image.webp" alt="" width="369"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/spaces_vqEORPskq4NZR6tIM7H1_uploads_PxSsFmCaXoAAAePyV8h9_image.webp" alt="" width="369"><figcaption></figcaption></figure>
 
 for each request had to go through this process:&#x20;
 
@@ -61,7 +61,7 @@ HTTP pipelining allows the client to send multiple requests at once without wait
 
 For instance, if a client needs to request two resources, the traditional approach would be to send request A within the same TCP connection, wait for the server to respond, and then send request B. The HTTP pipelining mechanism, on the other hand, permits the client to issue requests A and B simultaneously.
 
-<figure><img src=".gitbook/assets/spaces_vqEORPskq4NZR6tIM7H1_uploads_wzFTvDv54SwfKv4zhuVF_image.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/spaces_vqEORPskq4NZR6tIM7H1_uploads_wzFTvDv54SwfKv4zhuVF_image.webp" alt=""><figcaption></figcaption></figure>
 
 So here comes the question:**If HTTP persistent connections are used, and the client does not initiate any new requests after completing an HTTP request, wouldn't this continuous occupation of the TCP connection be quite wasteful of resources?**
 
