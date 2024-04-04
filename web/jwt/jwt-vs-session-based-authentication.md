@@ -1,9 +1,3 @@
----
-description: >-
-  What is the difference between JWT and session based authentication? What is
-  the advantage and what's the disadvantage in the comparison of JWT to session?
----
-
 # JWT vs Session Based Authentication
 
 ## JWT vs. Session Based Authentication (SBA)
@@ -118,12 +112,24 @@ If you want  efficient immediate control, choose SBA
   * https://www.forgebox.io/view/JWTSignEncrypt
   * https://www.scottbrady91.com/jose/json-web-encryption
 
+### Interview questions:
 
+* What is the difference between JWT and session based authentication?&#x20;
+* What is the advantage and what's the disadvantage in the comparison of JWT to session?
 
-Sources:
+Additional Questions:
+
+* What is the recommended way to store JWT tokens on the client-side if I really need to (cookie)?
+* How does JWT handle token expiration and refreshment?
+* How does JWT ensure the integrity of the data it carries?
+* How does a server validate a JWT token?
+
+### References
 
 * [https://juejin.cn/post/7110044736848658445  ](https://juejin.cn/post/7110044736848658445https:/dev.to/codeparrot/jwt-vs-session-authentication-1mol)
 * [https://dev.to/codeparrot/jwt-vs-session-authentication-1mol#:\~:text=Choosing%20between%20JWT%20and%20session,authentication%20holds%20the%20upper%20hand.](https://juejin.cn/post/7110044736848658445https:/dev.to/codeparrot/jwt-vs-session-authentication-1mol)
+* [https://blog.logrocket.com/jwt-authentication-best-practices/#:\~:text=To%20reiterate%2C%20whatever%20you%20do,JWTs%20inside%20an%20HttpOnly%20cookie.](https://blog.logrocket.com/jwt-authentication-best-practices/)
 * [https://iq.opengenus.org/user-authentication-techniques-types/](https://iq.opengenus.org/user-authentication-techniques-types/)
 * [https://www.forgebox.io/view/JWTSignEncrypt](https://www.forgebox.io/view/JWTSignEncrypt)
 * [https://www.scottbrady91.com/jose/json-web-encryption](https://www.scottbrady91.com/jose/json-web-encryption)
+* [https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/#:\~:text=When%20your%20authentication%20server%20receives,incoming%20JWT%20can%20be%20trusted.](https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/)
