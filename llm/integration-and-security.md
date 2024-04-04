@@ -12,7 +12,7 @@ Credits to [Nvidia](https://developer.nvidia.com/blog/securing-llm-systems-again
 
 ## Issues with Model Inputs Using LangChain
 
-With LangChain's rising popularity and usage to communicate with models, LamgChain can be used as an offensive tool to inject malicious prompts that the model API Endpoint or the model itself may not properly sanitize. Because of rapid developmenet and deployment to public, designs of such tools may be inadequate and lack security enhancements. Recent developments have shown possibilities revolving arbitrary malicious input from attackers to control the output of the LLM.
+With LangChain's rising popularity and usage to communicate with models, LangChain can be used as an offensive tool to inject malicious prompts that the model API Endpoint or the model itself may not properly sanitize. Because of rapid developmenet and deployment to public, designs of such tools may be inadequate and lack security enhancements. Recent developments have shown possibilities revolving arbitrary malicious input from attackers to control the output of the LLM.
 
 Exploited Proof of Concepts (PoCs) using `llm_math` are further discussed in [LLM Attacks](attacks.md).
 
