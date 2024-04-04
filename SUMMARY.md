@@ -26,4 +26,5 @@
 ## Large Language Models (LLMs)
 
 * [Tokens](llm/tokens.md)
+* [LangChain](llm/langchain-overview.md)
 * [Integration and Security](llm/integration-and-security.md)

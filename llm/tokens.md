@@ -17,7 +17,7 @@ extrapolate == ["extrapolate"], can be used as a single token but the numerical 
 extrapolate == ["extr", "apol", "ate"], numerical values are smaller which can use algorithm to combine context of these values
 ```
 
-Having smaller numerical (ID) value would be easier to perform calculation in vectorised formats. This results in faster processing for predictions of next chunk (in numerical value). Accuracy of prediction will be dependent on algorithms that handle context between each numerical value. Details will be discussed further in Transformers for Deep Learning.
+Having smaller numerical value (ID) would be easier to perform calculation in vectorised formats. This results in faster processing for predictions of next chunk (in numerical value). Accuracy of prediction will be dependent on algorithms that handle context between each numerical value. Details will be discussed further in Transformers for Deep Learning.
 
 A vocabulary (think of it as database) is created based on prefix number of tokens which will be used for contextual and semantic linking of tokens. Transformers will make use of this vocabulary to perform matrix calculation. As such, **bigger vocabulary == more computational power** needed thus, limiting vocabulary size is necessary. At the same time, vocabulary size limiting means any tokens not within vocabulary may result in **loss of information** during contextual linking.
 
@@ -31,7 +31,7 @@ Punctuations can make model training difficult as `coffee? != coffee. != coffee`
 
 ### Character-based
 
-Splits word into individual characters to have smaller vocabulary and require fewer tokens compared to [word-based](#word-based) since English has 256 differenct characters and ~170,000 words.
+Splits word into individual characters to have smaller vocabulary and require fewer tokens compared to [word-based](#word-based) since English language has 256 differenct characters and ~170,000 words.
 
 Advantages:
 * Very little to no unknown words for vocabulary
