@@ -32,3 +32,7 @@
 * [Tokens](llm/tokens.md)
 * [LangChain](llm/langchain-overview.md)
 * [Integration and Security](llm/integration-and-security.md)
+
+## Blue Team
+
+* [Indicators of Compromise](blue-team/indicators-of-compromise.md)
