@@ -1,4 +1,4 @@
-# Securing Operational Technology: Understanding OT Security in the Digital Age
+# Securing Operational Technology: Understanding OT Security
 
 
 

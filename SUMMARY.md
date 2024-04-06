@@ -17,7 +17,7 @@
 
 ***
 
-* [Securing Operational Technology: Understanding OT Security in the Digital Age](securing-operational-technology-understanding-ot-security-in-the-digital-age.md)
+* [Securing Operational Technology: Understanding OT Security](securing-operational-technology-understanding-ot-security.md)
 
 ## DevSecOps
 
