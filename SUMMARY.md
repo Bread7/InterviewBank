@@ -15,6 +15,10 @@
 * [HTTP Strict Transport Security (HSTS)](web/http-strict-transport-security-hsts.md)
 * [SQL Injection (SQLi)](web/sql-injection-sqli.md)
 
+***
+
+* [Securing Operational Technology: Understanding OT Security in the Digital Age](securing-operational-technology-understanding-ot-security-in-the-digital-age.md)
+
 ## DevSecOps
 
 * [Continuous Integration/Continuous Deployment Pipeline Security](devsecops/continuous-integration-continuous-deployment-pipeline-security.md)
