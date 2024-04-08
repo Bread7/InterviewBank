@@ -10,3 +10,5 @@
 ## Future Todos
 
 ## Random thoughts
+
+Passing payload as separate chunks and concatenate at context stage

@@ -15,6 +15,10 @@
 * [HTTP Strict Transport Security (HSTS)](web/http-strict-transport-security-hsts.md)
 * [SQL Injection (SQLi)](web/sql-injection-sqli.md)
 
+***
+
+* [Securing Operational Technology: Understanding OT Security](securing-operational-technology-understanding-ot-security.md)
+
 ## DevSecOps
 
 * [Continuous Integration/Continuous Deployment Pipeline Security](devsecops/continuous-integration-continuous-deployment-pipeline-security.md)
@@ -29,8 +33,14 @@
 * [LangChain](llm/langchain-overview.md)
 * [Integration and Security](llm/integration-and-security.md)
 
+
 ## Mobile Security
 
 ### Android
 
 * [Keystore](mobile-security/android/keystore.md)
+
+## Blue Team
+
+* [Indicators of Compromise](blue-team/indicators-of-compromise.md)
+
