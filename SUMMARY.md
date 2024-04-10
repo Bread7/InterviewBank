@@ -33,10 +33,7 @@
 * [LangChain](llm/langchain-overview.md)
 * [Integration and Security](llm/integration-and-security.md)
 
-
-## Mobile Security
-
-### Android
+## Android
 
 * [Keystore](mobile-security/android/keystore.md)
 
@@ -44,3 +41,6 @@
 
 * [Indicators of Compromise](blue-team/indicators-of-compromise.md)
 
+## CVE
+
+* [XZ Outbreak CVE-2024-3094](cve/xz-outbreak-cve-2024-3094.md)
