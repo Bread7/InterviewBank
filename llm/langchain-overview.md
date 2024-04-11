@@ -70,7 +70,7 @@ ChatGPT rolled out memory on 13 Feb 2024, which helps in managing context passin
 
 ## Author
 
-- [Zheng Jie](https://github.com/Bread7)
+- [Zheng Jie](https://github.com/Bread7) 🍞
 
 ## References
 

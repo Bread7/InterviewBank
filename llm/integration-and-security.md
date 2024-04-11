@@ -41,7 +41,7 @@ Sandwich prevention prefixes an instrcution prompt to ensure the LLM do not modi
 
 ## Author
 
-- [Zheng Jie](https://github.com/Bread7)
+- [Zheng Jie](https://github.com/Bread7) 🍞
 
 ## References
 

@@ -47,7 +47,7 @@ Furthermore, if the device is rooted, keystore is no longer secure and can be ac
 
 ## Author
 
-- [Zheng Jie](https://github.com/Bread7)
+- [Zheng Jie](https://github.com/Bread7) 🍞
 
 ## References
 

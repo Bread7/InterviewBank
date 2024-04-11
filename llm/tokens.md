@@ -130,7 +130,7 @@ Use existing weights of model to continue training with specific data to improve
 
 ## Author
 
-- [Zheng Jie](https://github.com/Bread7)
+- [Zheng Jie](https://github.com/Bread7) 🍞
 
 ## References
 

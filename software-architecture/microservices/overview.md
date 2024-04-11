@@ -57,7 +57,7 @@ Teams have to transition to be more autonomous and cross-functional which requir
 
 ## Author
 
-- [Zheng Jie](https://github.com/Bread7)
+- [Zheng Jie](https://github.com/Bread7) 🍞
 
 ## References
 
