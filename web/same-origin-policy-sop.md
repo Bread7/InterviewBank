@@ -69,3 +69,7 @@ Resource from portswigger ^
 4\) Does 127.0.0.1 and localhost considered the same origin?
 
 5\) Does http://test.com/path1 and http://test.com/path2 consider the same origin?
+
+## Author
+
+- [Chen Xing](https://github.com/Ik0nw)

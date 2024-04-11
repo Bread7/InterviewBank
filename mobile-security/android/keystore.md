@@ -45,6 +45,10 @@ Furthermore, if the device is rooted, keystore is no longer secure and can be ac
 * What are the security features of using android keystore?
 * Are there any methods to bypass android keystore? 
 
+## Author
+
+- [Zheng Jie](https://github.com/Bread7)
+
 ## References
 
 1. [Remote Rocketship - Android Security Questions](https://www.remoterocketship.com/advice/guide/android-engineer/android-security-specialist-interview-questions-and-answers)

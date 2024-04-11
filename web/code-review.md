@@ -24,3 +24,6 @@ For starters, we should not use `pickle` to unserialize data coming from an untr
 
 <figure><img src="../.gitbook/assets/code_solution.png" alt=""><figcaption><p>A possible code solution</p></figcaption></figure>
 
+## Author
+
+- [Isaac](https://github.com/frostsg)

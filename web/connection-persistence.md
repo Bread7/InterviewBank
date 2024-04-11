@@ -68,3 +68,7 @@ So here comes the question:**If HTTP persistent connections are used, and the cl
 To avoid the waste of resources, web service software generally provides a **keepalive\_timeout** parameter to specify the timeout for HTTP persistent connections.
 
 For example, if the timeout for HTTP persistent connections is set to 60 seconds, the web service software will start a timer. If the client does not initiate any new requests within 60 seconds after completing the last HTTP request, once the timer expires, it will trigger a callback function to **release the connection.**
+
+## Author
+
+- [Chen Xing](https://github.com/Ik0nw)

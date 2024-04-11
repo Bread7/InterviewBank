@@ -128,6 +128,10 @@ Use existing weights of model to continue training with specific data to improve
 * What are some of the ways to format tokens under usage limitation?
 * Given a long complex paragraph, explain your choice of algorithms/strategies.
 
+## Author
+
+- [Zheng Jie](https://github.com/Bread7)
+
 ## References
 
 1. [Deepchecks 5 approaches to solve llm token limits](https://deepchecks.com/5-approaches-to-solve-llm-token-limits/)

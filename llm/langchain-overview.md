@@ -68,6 +68,9 @@ ChatGPT rolled out memory on 13 Feb 2024, which helps in managing context passin
 * What are the benefits of using LangChain over LLM provider APIs?
 * Explain how to manage context passing when querying to LLMs?
 
+## Author
+
+- [Zheng Jie](https://github.com/Bread7)
 
 ## References
 

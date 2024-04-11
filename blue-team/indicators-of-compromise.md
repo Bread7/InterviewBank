@@ -36,3 +36,7 @@ There are different types of IOCs&#x20;
 
 3\) Do you think having Indicators of Compromise (IOCs) is enough? Explain why.
 
+## Author
+
+- [Isaac](https://github.com/frostsg)
+

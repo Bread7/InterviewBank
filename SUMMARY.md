@@ -17,7 +17,7 @@
 
 ## Operational Security (OPSEC)
 
-* [Securing Operational Technology: Understanding OT Security](securing-operational-technology-understanding-ot-security.md)
+* [Securing Operational Technology: Understanding OT Security](opsec/securing-operational-technology-understanding-ot-security.md)
 
 ## DevSecOps
 

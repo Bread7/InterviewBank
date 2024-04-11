@@ -51,5 +51,8 @@ What is AD relationship to Azure Active Directory?
 
 What kind of directory services that AD offers?
 
+## Author
+
+- [Isaac](https://github.com/frostsg)
 
 
