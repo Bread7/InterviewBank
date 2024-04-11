@@ -31,6 +31,4 @@
 
 ## Software Architecture
 
-### Microservices
-
-*[Overview](software-architecture/microservices/overview.md)
+*[Microservices](software-architecture/microservices/overview.md)
