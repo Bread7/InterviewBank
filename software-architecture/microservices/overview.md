@@ -55,6 +55,10 @@ Teams have to transition to be more autonomous and cross-functional which requir
 * Explain some use cases of Microservices?
 * What are some negatives of using/transitioning to Microserives?
 
+## Author
+
+- [Zheng Jie](https://github.com/Bread7)
+
 ## References
 
 1. [Microservices](https://microservices.io/)

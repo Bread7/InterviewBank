@@ -136,3 +136,7 @@ If yall want more information regarding this, since many companies make use of t
 [https://owasp.org/www-project-top-10-ci-cd-security-risks/](https://owasp.org/www-project-top-10-ci-cd-security-risks/)\
 [https://sysdig.com/learn-cloud-native/container-security/cicd-pipeline/](https://sysdig.com/learn-cloud-native/container-security/cicd-pipeline/)\
 (Very good to know if in the future you get the opportunity for a DEVOPS or DEVSECOPS job)
+
+## Author
+
+- [Nikhil](https://github.com/KR0N0S99)

@@ -75,3 +75,7 @@ ResultSet resultSet = statement.executeQuery();
 ```
 
 A step further in using prepared statement would be to use stored procedures that hold fully prepared statements within the database to query itself without the need of user input
+
+## Author
+
+- [Zheng Jie](https://github.com/Bread7)

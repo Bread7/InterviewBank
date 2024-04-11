@@ -101,3 +101,7 @@ Can you explain the difference between `script-src`, `img-src`, and `default-src
 How would you debug issues caused by a CSP policy blocking legitimate resources?
 
 Can you explain the role of the `report-uri` directive in CSP and how you would use it in practice?
+
+## Author
+
+- [Chen Xing](https://github.com/Ik0nw)

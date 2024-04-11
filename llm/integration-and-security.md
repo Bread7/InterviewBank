@@ -39,6 +39,10 @@ Sandwich prevention prefixes an instrcution prompt to ensure the LLM do not modi
 * LLM integration into existing products is a trend to boost productivity, how do you secure LLM integration and pipelines?
 * What defense techniques can be used to secure API functions?
 
+## Author
+
+- [Zheng Jie](https://github.com/Bread7)
+
 ## References
 
 1. [LLM Security - Defense](https://llmsecurity.net/#defenses--detections) - Fantastic resource links

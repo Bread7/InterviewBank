@@ -41,3 +41,7 @@ However, in some condition if the server **only white listed the CDN domains**, 
 3. After receiving the email, we can view its source code, especially the email headers, and note down all the IP addresses, including subdomains. These details are likely related to the hosting service.
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+## Author
+
+- [Chen Xing](https://github.com/Ik0nw)

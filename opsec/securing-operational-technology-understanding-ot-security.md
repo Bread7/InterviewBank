@@ -65,3 +65,6 @@ The link below is a write up to an OT Security CTF for whoever's interested. \
 **Cheers!**\
 [https://ctftime.org/event/1148/tasks/](https://ctftime.org/event/1148/tasks/)
 
+## Author
+
+- [Nikhil](https://github.com/KR0N0S99)
