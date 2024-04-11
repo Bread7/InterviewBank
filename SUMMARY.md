@@ -15,7 +15,7 @@
 * [HTTP Strict Transport Security (HSTS)](web/http-strict-transport-security-hsts.md)
 * [SQL Injection (SQLi)](web/sql-injection-sqli.md)
 
-***
+## Operational Security (OPSEC)
 
 * [Securing Operational Technology: Understanding OT Security](securing-operational-technology-understanding-ot-security.md)
 
@@ -47,4 +47,4 @@
 
 ## Software Architecture
 
-*[Microservices](software-architecture/microservices/overview.md)
+* [Microservices](software-architecture/microservices/overview.md)
