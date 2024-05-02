@@ -24,6 +24,7 @@
 * [Continuous Integration/Continuous Deployment Pipeline Security](devsecops/continuous-integration-continuous-deployment-pipeline-security.md)
 * [Chaos Engineering Overview](devsecops/chaos-overview.md)
   * [Security Chaos Engineering](devsecops/security-chaos.md)
+* [Mysql and redis](devsecops/mysql-and-redis.md)
 
 ## Active Directory
 
