@@ -24,7 +24,7 @@ In summary, while MySQL and Redis serve distinct purposes, they complement each 
 
 ## Author
 
-\[ikonw]\([https://github.com/Ik0nw](https://github.com/Ik0nw))
+[Ik0nw](https://github.com/Ik0nw)
 
 ## Interview Question
 
