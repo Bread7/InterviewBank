@@ -19,6 +19,10 @@
 
 * [Securing Operational Technology: Understanding OT Security](opsec/securing-operational-technology-understanding-ot-security.md)
 
+## Quantum Computing
+
+* [Quantum Computing: Unveiling the Cryptographic Paradigm Shift](quantum-computing/securing-operational-technology-understanding-ot-security.md)
+
 ## DevSecOps
 
 * [Continuous Integration/Continuous Deployment Pipeline Security](devsecops/continuous-integration-continuous-deployment-pipeline-security.md)
