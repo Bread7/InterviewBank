@@ -69,9 +69,14 @@ LQIDAQAB
 
 Checking the source code they provided, this is how the server side validates token, so do you see what is wrong with it?&#x20;
 
+<figure><img src="../../.gitbook/assets/Pasted image 20240506231933 (1).png" alt=""><figcaption><p>From main.py</p></figcaption></figure>
+
 There is no validation!
 
 If anything is modified on the algo section of the Headers, the `jwt.decode` will process it using that algorithm, this vulnerability is important to note since we can technically just modify this field in the JWT using HMAC, resign the token with the public key, send it over, the server uses the public key to decrypt the signature, and see our information sent anyways.
+
+Indicated in the documentation of this library is the following:\
+"This decoding method is insecure. By default `jwt.decode` parses the alg header. This allows symmetric macs and asymmetric signatures. If both are allowed a signature bypass described in CVE-2016-10555 is possible."&#x20;
 
 ### For more information along with mitigation:&#x20;
 
