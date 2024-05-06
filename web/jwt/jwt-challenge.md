@@ -1,3 +1,9 @@
+---
+description: >-
+  The Main challenge is from CDDC 2024 Practice Practice round. Go try it first
+  before you read this.
+---
+
 # JWT Challenge
 
 We have learnt about JWT, but what about the attack of it?
@@ -6,7 +12,9 @@ We have learnt about JWT, but what about the attack of it?
 
 {% file src="../../.gitbook/assets/web4_so_dizzy.zip" %}
 
-If CDDC practice machine is still up, here is the initial site: http://47.128.156.184:10008/&#x20;
+If CDDC practice machine is still up, here is the initial site:&#x20;
+
+{% embed url="http://47.128.156.184:10008/" %}
 
 <figure><img src="../../.gitbook/assets/Pasted image 20240506225257.png" alt=""><figcaption></figcaption></figure>
 
