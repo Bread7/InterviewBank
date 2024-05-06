@@ -124,6 +124,8 @@ Additional Questions:
 * How does JWT ensure the integrity of the data it carries?
 * How does a server validate a JWT token?
 
+#### Author: [`Ninjarku`](https://github.com/Ninjarku)
+
 ### References
 
 * [https://juejin.cn/post/7110044736848658445  ](https://juejin.cn/post/7110044736848658445https:/dev.to/codeparrot/jwt-vs-session-authentication-1mol)
