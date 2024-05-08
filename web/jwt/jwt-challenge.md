@@ -152,5 +152,4 @@ Which you can use to resign the token after modification.
 
 It is important to use validation for all your methods with regards to authentication, and use of strong keys are recommended, and do not expose your keys easily.
 
-#### Author: [`Ninjarku`](https://github.com/Ninjarku)
-
+#### Author: [`Beckham`](https://github.com/Ninjarku)🐱‍👤

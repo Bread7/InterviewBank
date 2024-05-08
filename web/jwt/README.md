@@ -110,7 +110,7 @@ Source:\
 * Include the `aud` (audience) claim (or similar) to specify the intended recipient of the token. This prevents it from being used on different websites.
 * Enable the issuing server to revoke tokens (on logout, for example).
 
-#### Author: [`Ninjarku`](https://github.com/Ninjarku)
+#### Author: [`Beckham`](https://github.com/Ninjarku)🐱‍👤
 
 ## Tool to Play around with JWT
 
