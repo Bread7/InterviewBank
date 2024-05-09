@@ -1,7 +1,8 @@
 ---
 description: >-
   A brief exploration of the impact quantum computing will have on the world of
-  cryptography as it becomes mainstream.
+  cryptography as it becomes mainstream. ( I will talking about quantum mostly
+  the next couple of weeks haha)
 ---
 
 # Quantum Computing: Unveiling the Cryptographic Paradigm Shift
@@ -47,7 +48,11 @@ In response to these vulnerabilities, researchers and cryptographers are develop
 
 #### Conclusion
 
-The rise of quantum computing heralds a transformative era in computational capabilities, presenting significant challenges to the field of cryptography. The current cryptographic algorithms that secure everything from internet transactions to government communications could be rendered obsolete. Which is why it is imperative to address these challenges. The development of quantum-resistant cryptography is a critical step in maintaining the security and privacy standards in the quantum age. As quantum computing technology continues to advance, the need for widespread adoption and implementation of post-quantum cryptography will become increasingly urgent, ensuring the safeguarding of our digital and real-world assets.
+The rise of quantum computing heralds a transformative era in computational capabilities, presenting significant challenges to the field of cryptography. The current cryptographic algorithms that secure everything from internet transactions to government communications could be rendered obsolete. Which is why it is imperative to address these challenges. The development of quantum-resistant cryptography is a critical step in maintaining the security and privacy standards in the quantum age. As quantum computing technology continues to advance, the need for widespread adoption and implementation of post-quantum cryptography will become increasingly urgent, ensuring the safeguarding of our digital and real-world assets.\
+\
+Ps. ( This video is quite interesting as well!)
+
+{% embed url="https://www.youtube.com/watch?v=JhHMJCUmq28" %}
 
 
 
