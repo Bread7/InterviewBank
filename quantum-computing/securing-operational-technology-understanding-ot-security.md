@@ -54,7 +54,9 @@ Ps. ( This video is quite interesting as well!)
 
 {% embed url="https://www.youtube.com/watch?v=JhHMJCUmq28" %}
 
+(Here's another video link, This one basically talks about a certain impending doom, you'll see haha)
 
+{% embed url="https://www.youtube.com/watch?v=-UrdExQW0cs" %}
 
 **Interview Questions**\
 \
