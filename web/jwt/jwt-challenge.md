@@ -162,6 +162,11 @@ If it is recoverable, the private key will show:&#x20;
 
 Which you can use to resign the token after modification.
 
+### Questions to ponder:
+
+* If you were the developer, how would you have better secured the code, give a simple snippet to show how you would have done it.
+* What other forms of JWT implementations are there, and how are they better than just implementing JWT by itself?
+
 ### Conclusion
 
 It is important to use validation for all your methods with regards to authentication, and use of strong keys are recommended, and do not expose your keys easily.
