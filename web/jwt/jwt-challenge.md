@@ -12,6 +12,20 @@ We have learnt about JWT, but what about the attack of it?
 
 {% file src="../../.gitbook/assets/web4_so_dizzy.zip" %}
 
+## Setup
+
+```bash
+# Unzip the file
+unzip web4_so_dizzy.zip
+cd web4_so_dizzy
+
+# Start the flask server on your own host/VM
+python -m main.py
+
+# Now just use it the way you would a server :)
+
+```
+
 If CDDC practice machine is still up, here is the initial site:&#x20;
 
 {% embed url="http://47.128.156.184:10008/" %}
