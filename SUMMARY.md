@@ -63,10 +63,10 @@
 * [Overview](docker/overview.md)
 * [Daemon Socket](docker/daemon-socket.md)
 
-***
-
-* [Business Acumen](business-acumen.md)
-
 ## Blockchain
 
 * [Overview](blockchain/blockchain-overview.md)
+
+## Business Acumen
+
+* [Understanding Acquisitions](business-acumen/understanding-acquisitions.md)
