@@ -35,6 +35,7 @@
 
 * [Active Directory 101](active-directory/active-directory-101.md)
 * [Pentesting Active Directory - Kerberos (Part 1)](active-directory/pentesting-active-directory-kerberos-part-1.md)
+* [AD vs Kerberos vs LDAP](active-directory/ad-vs-kerberos-vs-ldap.md)
 
 ## Large Language Models (LLMs)
 
