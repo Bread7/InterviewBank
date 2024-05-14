@@ -80,3 +80,9 @@ In K8s, the design concept of Pods is to support the deployment and management o
 2. **Communication between containers:** Containers within the same **Pod can communicate directly using localhost without going through the network stack**, improving communication efficiency.
 3. **Flexibility:** Placing related containers in the same Pod makes it easier to manage their deployment, scaling, and adjustment as needed.
 4. **Lifecycle management:** Pods are the basic unit of management and scheduling in Kubernetes, so grouping related containers in the same Pod **allows for better management of their lifecycle, such as creation, deletion, and restart.**
+
+
+
+## Author:
+
+[Ikonw](https://github.com/Ik0nw)
