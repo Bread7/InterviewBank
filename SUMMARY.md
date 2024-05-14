@@ -30,6 +30,7 @@
 * [Chaos Engineering Overview](devsecops/chaos-overview.md)
   * [Security Chaos Engineering](devsecops/security-chaos.md)
 * [Mysql VS redis](devsecops/mysql-and-redis.md)
+* [Kubernetes (k8s)](devsecops/kubernetes-k8s.md)
 
 ## Active Directory
 
@@ -73,4 +74,3 @@
 ## Business Acumen
 
 * [Understanding Acquisitions](business-acumen/understanding-acquisitions.md)
-

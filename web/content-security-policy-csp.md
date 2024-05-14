@@ -1,20 +1,16 @@
 # Content Security Policy (CSP)
 
-Content Security is a browser technology that provides a protection against attack such as cross-site scripting (XSS).&#x20;
+Content Security is a browser technology that provides a protection against attack such as cross-site scripting (XSS).
 
 It works by define the path or the source from which resources **can be loaded by the browser.**
 
 So what the defination of these resource, it can be image, frame, media, plugin and javascript etc.... anything that loads by the browser.
 
-
-
 ## Mitigating Cross-site scripting
 
-The main focus is to reduce XSS. XSS exploit the browser's trust in the content received from the server. Malicious scripts are executed by the victim's browser because **the browser trusts the source on the content.**&#x20;
+The main focus is to reduce XSS. XSS exploit the browser's trust in the content received from the server. Malicious scripts are executed by the victim's browser because **the browser trusts the source on the content.**
 
 **The main problem is that the BROWSER TURST WHATEVER CONTENT FROM SERVER.**
-
-
 
 ## How does CSP works?
 
@@ -22,7 +18,7 @@ The implementation of CSP is conducted through `response header` or **incorporat
 
 ### Specifying policy
 
-We can use `content-security-Policy` HTTP header to specify policy like this&#x20;
+We can use `content-security-Policy` HTTP header to specify policy like this
 
 ```
 Content-Security-Policy: policy
@@ -32,11 +28,11 @@ Content-Security-Policy: policy
 
 A policy is described using a series of policy directives, each of which describes the policy for a c**ertain resource type or policy area.**
 
-We need to specify the policy for different resource type such as img, media, js. The policy is a suggestion to include a **default-src. If none of the tags are mentions, it will all fault to this \`default-sec\`**&#x20;
+We need to specify the policy for different resource type such as img, media, js. The policy is a suggestion to include a **default-src. If none of the tags are mentions, it will all fault to this \`default-sec\`**
 
 ### Example common use cases
 
-E.G. 1&#x20;
+E.G. 1
 
 A web administrator wants all content come from the site's own origin (Excludes subdomains)
 
@@ -74,7 +70,7 @@ More directive please refer to the
 
 In default, when CSP is trigger the page will show the script is refused to loaded due to CSP.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Chrome</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Chrome</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Firefox</p></figcaption></figure>
 
@@ -86,7 +82,7 @@ Content-Security-Policy: default-src 'self'; report-uri http://reportcollector.e
 ```
 {% endcode %}
 
-For report syntax refer to&#x20;
+For report syntax refer to
 
 {% embed url="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP#violation_report_syntax" %}
 
@@ -104,4 +100,4 @@ Can you explain the role of the `report-uri` directive in CSP and how you would 
 
 ## Author
 
-- [Chen Xing](https://github.com/Ik0nw)
+* [Chen Xing](https://github.com/Ik0nw)
