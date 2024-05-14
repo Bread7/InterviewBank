@@ -1,26 +1,58 @@
 # Mysql and redis
 
-MySQL: MySQL is a mature relational database management system (RDBMS) designed for storing structured data in tables with rows and columns. It follows the relational model, allowing complex relationships to be established between different data entities. MySQL is renowned for its robustness in handling transactions, ensuring data integrity through the implementation of ACID (Atomicity, Consistency, Isolation, Durability) properties.
+## Database Types of MySQL and Redis
 
-Key Features of MySQL:
+MySQL is a relational database primarily used for storing persistent data, storing data on the hard disk, which has slower read speeds.
 
-* **Relational Model**: Organizes data into tables with well-defined relationships, facilitating efficient data retrieval and manipulation.
-* **Structured Query Language (SQL)**: Supports a rich set of SQL commands for querying and managing data, making it versatile for various database operations.
-* **Persistence**: Data in MySQL is persistently stored on disk, ensuring durability even in the event of system failures or crashes.
-* **Scalability**: MySQL offers both vertical and horizontal scalability options, enabling seamless expansion to accommodate growing data volumes and user loads.
+Redis is a NoSQL, non-relational database, also a caching database, storing data in memory. The cached data can be accessed much faster, greatly improving efficiency, but the data has a limited storage time.
 
-Redis: Redis, on the other hand, is a highly versatile NoSQL database known for its exceptional performance and flexibility. Unlike MySQL, Redis stores data in a key-value format, making it ideal for scenarios requiring rapid data access and retrieval. Redis primarily operates in-memory, offering lightning-fast read and write speeds. However, this also means that the amount of data that Redis can store is limited by the available memory capacity.
+## MySQL's Operating Mechanism
 
-Key Features of Redis:
+MySQL, as a relational database for persistent storage, has a relatively weak point in that every time a request accesses the database, **there are I/O operations**. If the database is accessed repeatedly and frequently, it will: First, **spend a lot of time repeatedly connecting to the database**, leading to **slow performance**; second, repeated database access will also **result in high database load**. Therefore, the concept of caching emerges.
 
-* **Key-Value Store**: Stores data as key-value pairs, enabling efficient storage and retrieval of information.
-* **In-Memory Database**: Leverages memory storage for fast data access, making it well-suited for caching, real-time analytics, and high-throughput applications.
-* **Data Structures**: Supports a variety of data structures such as strings, lists, sets, and hashes, providing flexibility in data storage and manipulation.
-* **Persistence Options**: Offers persistence mechanisms like snapshots and append-only files, allowing data to be saved to disk for durability.
+### Caching
 
-Choosing Between MySQL and Redis: The choice between MySQL and Redis depends on the specific requirements of the application. MySQL excels in scenarios where structured data, complex queries, and transactional integrity are paramount, such as e-commerce platforms, financial systems, and content management systems. In contrast, Redis is ideal for use cases demanding lightning-fast data access and real-time processing, such as caching, session management, and pub/sub messaging systems.
+Caching is a buffer area (cache) for data exchange. When a browser makes a request, it first searches in the cache. If it exists, it retrieves it; otherwise, it accesses the database.
 
-In summary, while MySQL and Redis serve distinct purposes, they complement each other well in many architectures. MySQL provides a reliable foundation for storing structured data and ensuring transactional consistency, while Redis enhances performance by serving as a high-speed data cache and facilitating real-time data processing. By leveraging the strengths of both databases, organizations can build robust, scalable, and high-performance data storage solutions tailored to their unique needs and use cases.
+The benefit of caching is that it speeds up read access.
+
+## Redis Database
+
+The Redis database is a caching database used to store frequently used data, reducing the number of times the database is accessed and improving efficiency.
+
+### Summary of Differences Between Redis and MySQL
+
+#### Type
+
+In terms of type, MySQL is a relational database, while Redis is a caching database.
+
+#### Functionality
+
+MySQL is used for persistently storing data on the hard disk, which is powerful but slow in speed. Redis is used for storing frequently used data in cache, with fast read speeds.
+
+#### Requirements
+
+MySQL and Redis are generally used together due to their different requirements.
+
+#### Storage Location
+
+MySQL stores data on the disk, while Redis stores data in memory.
+
+#### Suitable Data Types for Storage
+
+Redis is suitable for storing some frequently used, hot data. Because it is stored in memory, both read and write speeds are very fast. It is generally applied in scenarios such as leaderboards, counters, message queue pushes, friend followings, and followers.
+
+## Can All Data Be Stored Directly in Redis?
+
+Firstly, it should be understood that MySQL stores data on disk, while Redis stores data in memory. Redis can be used for persistent storage or caching. Currently, most companies use MySQL + Redis, with MySQL as the main storage and Redis as auxiliary storage for caching, speeding up access and improving performance.
+
+Redis stores data in memory. If storing large amounts of data in memory, the storage capacity will be much less than that of disk storage. To store a large amount of data, you would need to spend more money to purchase memory, which can be relatively wasteful in areas that do not require high performance. Therefore, MySQL (main) + Redis (auxiliary) is commonly used, using Redis in areas that require performance and MySQL in areas that do not need high performance, to use resources efficiently.
+
+MySQL supports SQL queries, which can be used for some associated queries and statistics.
+
+Redis requires a high memory requirement and cannot store all data in Redis under limited conditions.
+
+MySQL is more inclined to store data, while Redis is more inclined to quickly retrieve data. However, when Redis queries complex table relationships, it is not as good as MySQL, so you can put popular data in Redis and basic data in MySQL.
 
 ## Author
 

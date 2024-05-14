@@ -29,12 +29,14 @@
 * [Continuous Integration/Continuous Deployment Pipeline Security](devsecops/continuous-integration-continuous-deployment-pipeline-security.md)
 * [Chaos Engineering Overview](devsecops/chaos-overview.md)
   * [Security Chaos Engineering](devsecops/security-chaos.md)
-* [Mysql and redis](devsecops/mysql-and-redis.md)
+* [Mysql VS redis](devsecops/mysql-and-redis.md)
 
 ## Active Directory
 
-* [Active Directory 101](active-directory/active-directory-101.md)
+* [Pentesting Active Directory - Active Directory 101](active-directory/active-directory-101.md)
 * [Pentesting Active Directory - Kerberos (Part 1)](active-directory/pentesting-active-directory-kerberos-part-1.md)
+* [Pentesting Active Directory - Kerberos (Part 2)](active-directory/pentesting-active-directory-kerberos-part-2.md)
+* [AD vs Kerberos vs LDAP](active-directory/ad-vs-kerberos-vs-ldap.md)
 
 ## Large Language Models (LLMs)
 
@@ -67,3 +69,8 @@
 
 * [Overview](blockchain/blockchain-overview.md)
 * [Smart Contract](blockchain/smart-contract.md)
+
+## Business Acumen
+
+* [Understanding Acquisitions](business-acumen/understanding-acquisitions.md)
+
