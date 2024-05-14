@@ -68,7 +68,9 @@
 ## Blockchain
 
 * [Overview](blockchain/blockchain-overview.md)
+* [Smart Contract](blockchain/smart-contract.md)
 
 ## Business Acumen
 
 * [Understanding Acquisitions](business-acumen/understanding-acquisitions.md)
+
