@@ -33,3 +33,7 @@ Broadcom has strategically used acquisitions to bolster its market position and 
 * The acquired companies were leaders in their respective fields, with significant market share. How has these acquisitions affected the clients of these organizations?&#x20;
 * How has the market shifted from the acquired companies to their competitors?
 
+## Author
+
+* [Joseph](https://www.linkedin.com/in/josephlimgq/)
+
