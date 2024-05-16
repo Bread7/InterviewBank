@@ -23,6 +23,7 @@
 ## Quantum Computing
 
 * [Quantum Computing: Unveiling the Cryptographic Paradigm Shift](quantum-computing/securing-operational-technology-understanding-ot-security.md)
+* [Quantum Obfuscation: Shielding Code in the Quantum Era](quantum-computing/quantum-obfuscation-shielding-code-in-the-quantum-era.md)
 
 ## DevSecOps
 

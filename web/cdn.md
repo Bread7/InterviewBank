@@ -40,7 +40,7 @@ However, in some condition if the server **only white listed the CDN domains**, 
 2. The next step is to extract header information from the target emails. For example, we can subscribe to the target service, create an account, use the "forgot password" function, or order some products... In short, we need to find a way to get the target to send us an email (in such scenarios, we can use Burp Collaborator).
 3. After receiving the email, we can view its source code, especially the email headers, and note down all the IP addresses, including subdomains. These details are likely related to the hosting service.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Author
 
