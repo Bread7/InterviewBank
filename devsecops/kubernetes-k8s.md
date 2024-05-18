@@ -81,8 +81,14 @@ In K8s, the design concept of Pods is to support the deployment and management o
 3. **Flexibility:** Placing related containers in the same Pod makes it easier to manage their deployment, scaling, and adjustment as needed.
 4. **Lifecycle management:** Pods are the basic unit of management and scheduling in Kubernetes, so grouping related containers in the same Pod **allows for better management of their lifecycle, such as creation, deletion, and restart.**
 
+## Interview question
 
+1. **Explain the difference between traditional deployment, virtualized deployment, and container deployment.**
+2. **When should you use Kubernetes instead of Docker or Docker Compose?**
+3. **What are the roles of the master and worker nodes in a Kubernetes cluster?**
+4. **Why might you need to create multiple Pods within a single node instead of a single Pod with all containers?**
+5. **What is the significance of having multiple master nodes in a Kubernetes cluster? (ownself research)**
 
-## Author:
+## Author
 
 [Ikonw](https://github.com/Ik0nw)
