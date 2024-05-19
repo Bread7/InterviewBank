@@ -16,6 +16,7 @@
 * [Cross-Origin Resource Sharing (CORS)](web/cross-origin-resource-sharing-cors.md)
 * [HTTP Strict Transport Security (HSTS)](web/http-strict-transport-security-hsts.md)
 * [SQL Injection (SQLi)](web/sql-injection-sqli.md)
+* [Password Encryption in Login APIs](web/password-encryption-in-login-apis.md)
 
 ## Operational Security (OPSEC)
 
