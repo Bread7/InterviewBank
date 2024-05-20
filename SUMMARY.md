@@ -77,4 +77,5 @@
 
 ## Business Acumen
 
+* [Market Research Reports and Perception](business-acumen/market-research-reports-and-perception.md)
 * [Understanding Acquisitions](business-acumen/understanding-acquisitions.md)
