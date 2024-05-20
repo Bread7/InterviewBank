@@ -55,7 +55,7 @@
 ## Blue Team
 
 * [Indicators of Compromise](blue-team/indicators-of-compromise.md)
-* [Email domain spoofing](blue-team/email-domain-spoofing.md)
+* [Methods to prevent Email domain spoofing](blue-team/methods-to-prevent-email-domain-spoofing.md)
 
 ## CVE
 
