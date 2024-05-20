@@ -52,8 +52,8 @@ Understanding market perception and industry trends is crucial for businesses to
 
 ## Interview Questions
 
-* What is the common known industry secret of Gartner's Magic Quadrant that makes their market research reports less ideal than the other 2 organizations''.
-* "Given a situation where multiple cybersecurity vendors are rated similarly in Forrester's Wave, how would you evaluate and determine which vendor’s product to adopt for our company's needs? What additional factors would you consider beyond the report's scope to make your decision?"
+* What is the common known industry secret of Gartner's Magic Quadrant that makes their market research reports less ideal than the other 2 organizations'.
+* Given a situation where multiple cybersecurity vendors are rated similarly in Forrester's Wave, how would you evaluate and determine which vendor’s product to adopt for our company's needs? What additional factors would you consider beyond the report's scope to make your decision?
 
 ## Author
 
