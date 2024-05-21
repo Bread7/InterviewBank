@@ -79,3 +79,7 @@
 
 * [Market Research Reports and Perception](business-acumen/market-research-reports-and-perception.md)
 * [Understanding Acquisitions](business-acumen/understanding-acquisitions.md)
+
+## Cyber Teams
+
+* [Introduction to Purple Teaming](cyber-teams/introduction-to-purple-teaming.md)
