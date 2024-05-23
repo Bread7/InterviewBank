@@ -44,6 +44,8 @@ Guest Token:
 eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiZ3Vlc3QifQ.ATWEP-3TalFgZ0NavDYr8h7at_9n-jxo9nVNuLvMdIx5xKeTTvrAd9Z22vGh87MFXy5vBFfBG4h6b7_ef9yqzJpBy-mdFGNXkg8TbywVJ_bJDzNFcSfv02Sxya9L9Z_1LwACyKpZFVsFuqmltgImmMb07I0j1_J4NpwcnYDlbSev6nhLJ8prsXiIScXLLr4GRniIgkR8AwnI1pAbqb0RqxsC-cNTBbPrV7zcd3dg3X1ASbBdKLh-uCJhDAFUsEWd2eD5wm4EGCalocZLercz_sDGMF9MCUKKt2tlPnh5snCMd3VIYIsKIKaaxwqh2nTgjYQT2Qyt5UFmHKIvqWcr5g
 ```
 
+Which is a [JWS](https://greenhat.gitbook.io/interview-bank/web/jwt/jws), and putting it in a [decoder](https://jwt.io/) can help us see it better.
+
 Translates to:
 
 ```
