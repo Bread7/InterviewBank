@@ -11,6 +11,7 @@
   * [JWT vs Session Based Authentication](web/jwt/jwt-vs-session-based-authentication.md)
   * [JWT Challenge](web/jwt/jwt-challenge.md)
   * [JWE](web/jwt/jwe.md)
+  * [JWS](web/jwt/jws.md)
 * [Content Security Policy (CSP)](web/content-security-policy-csp.md)
 * [Same-origin Policy (SOP)](web/same-origin-policy-sop.md)
 * [Cross-Origin Resource Sharing (CORS)](web/cross-origin-resource-sharing-cors.md)
