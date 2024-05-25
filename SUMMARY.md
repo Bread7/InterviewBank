@@ -82,6 +82,7 @@
 
 * [Market Research Reports and Perception](business-acumen/market-research-reports-and-perception.md)
 * [Understanding Acquisitions](business-acumen/understanding-acquisitions.md)
+* [Cybersecurity as a Business Strategy](business-acumen/cybersecurity-as-a-business-strategy.md)
 
 ## Cyber Teams
 
