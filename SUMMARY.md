@@ -36,6 +36,7 @@
   * [Security Chaos Engineering](devsecops/security-chaos.md)
 * [Mysql VS redis](devsecops/mysql-and-redis.md)
 * [Kubernetes (k8s)](devsecops/kubernetes-k8s.md)
+* [How MySQL executes query](devsecops/how-mysql-executes-query.md)
 
 ## Active Directory
 
