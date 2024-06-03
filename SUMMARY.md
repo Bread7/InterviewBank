@@ -19,6 +19,7 @@
 * [SQL Injection (SQLi)](web/sql-injection-sqli.md)
 * [Password Encryption in Login APIs](web/password-encryption-in-login-apis.md)
 * [API Security](web/api/security-overview.md)
+* [Simple bypass PHP](web/simple-bypass-php.md)
 
 ## Operational Security (OPSEC)
 

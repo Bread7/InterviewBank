@@ -38,7 +38,7 @@ Kubernetes (k8s) provides centralized control of clusters, allowing you to manag
 
 ## Kubernetes Cluster Architecture
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Master
 
