@@ -88,3 +88,15 @@ Utilizing this feature, we can reduce the previous code as follows.
 ```
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+## Interview Question
+
+It is interesting to see how the backticks can excute shell commands, so how do you prevent backticks from executing commands, does backticks bind to `system` function or `shell_exec` function?
+
+Will disable this 2 functions preventing backtick from executing?
+
+
+
+## Author&#x20;
+
+[Ikonw](https://github.com/Ik0nw/)
