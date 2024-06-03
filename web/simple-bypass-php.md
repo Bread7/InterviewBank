@@ -91,9 +91,9 @@ Utilizing this feature, we can reduce the previous code as follows.
 
 ## Interview Question
 
-It is interesting to see how the backticks can excute shell commands, so how do you prevent backticks from executing commands, does backticks bind to `system` function or `shell_exec` function?
+It is interesting to see how the backticks can excute shell commands, does backticks bind to `system` function or `shell_exec` function?
 
-Will disable this 2 functions preventing backtick from executing?
+Will disable this 2 functions preventing backtick from executing? If not how do you prevent it?
 
 
 
