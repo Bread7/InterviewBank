@@ -18,6 +18,7 @@
 * [SQL Injection (SQLi)](web/sql-injection-sqli.md)
 * [Password Encryption in Login APIs](web/password-encryption-in-login-apis.md)
 * [API Security](web/api/security-overview.md)
+  * [API Principles](web/api/principles.md)
 
 ## Operational Security (OPSEC)
 
