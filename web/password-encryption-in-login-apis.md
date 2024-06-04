@@ -14,13 +14,13 @@ In this below example when logging into GitHub, passwords in the POST request to
 
 If an attacker successfully performs a Man-In-The-Middle (MITM) attack , e.g by stealing your TLS secrets and decrypting HTTPS traffic, your cleartext password will be fully compromised.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>GitHub Login Request with Cleartext Password Intercepted on Burp</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption><p>GitHub Login Request with Cleartext Password Intercepted on Burp</p></figcaption></figure>
 
 ### Example 2: With Front-End Encryption (facebook.com)
 
 In this other scenario where the password is encrypted **on the front-end** for facebook.com, the POST request contains the encrypted password. This way, even if the previously mentioned MITM attack succeeds, the attacker cannot obtain the victim’s cleartext password in the request. This adds an additional security layer to protect the users credentials from getting stolen.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Facebook Login Request with Encrypted Password Intercepted on Burp</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Facebook Login Request with Encrypted Password Intercepted on Burp</p></figcaption></figure>
 
 ### **So… Is it necessary?**
 

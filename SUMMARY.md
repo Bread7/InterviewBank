@@ -11,6 +11,7 @@
   * [JWT vs Session Based Authentication](web/jwt/jwt-vs-session-based-authentication.md)
   * [JWT Challenge](web/jwt/jwt-challenge.md)
   * [JWE](web/jwt/jwe.md)
+  * [JWS](web/jwt/jws.md)
 * [Content Security Policy (CSP)](web/content-security-policy-csp.md)
 * [Same-origin Policy (SOP)](web/same-origin-policy-sop.md)
 * [Cross-Origin Resource Sharing (CORS)](web/cross-origin-resource-sharing-cors.md)
@@ -19,6 +20,8 @@
 * [Password Encryption in Login APIs](web/password-encryption-in-login-apis.md)
 * [API Security](web/api/security-overview.md)
   * [API Principles](web/api/principles.md)
+* [Simple bypass PHP](web/simple-bypass-php.md)
+
 
 ## Operational Security (OPSEC)
 
@@ -36,6 +39,7 @@
   * [Security Chaos Engineering](devsecops/security-chaos.md)
 * [Mysql VS redis](devsecops/mysql-and-redis.md)
 * [Kubernetes (k8s)](devsecops/kubernetes-k8s.md)
+* [How MySQL executes query](devsecops/how-mysql-executes-query.md)
 
 ## Active Directory
 
@@ -62,6 +66,7 @@
 ## CVE
 
 * [XZ Outbreak CVE-2024-3094](cve/xz-outbreak-cve-2024-3094.md)
+* [Log4J Vulnerability (CVE-2021-44228)](cve/log4j-vulnerability-cve-2021-44228.md)
 
 ## Software Architecture
 
@@ -81,6 +86,7 @@
 
 * [Market Research Reports and Perception](business-acumen/market-research-reports-and-perception.md)
 * [Understanding Acquisitions](business-acumen/understanding-acquisitions.md)
+* [Cybersecurity as a Business Strategy](business-acumen/cybersecurity-as-a-business-strategy.md)
 
 ## Cyber Teams
 
