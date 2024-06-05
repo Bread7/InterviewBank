@@ -22,7 +22,6 @@
   * [API Principles](web/api/principles.md)
 * [Simple bypass PHP](web/simple-bypass-php.md)
 
-
 ## Operational Security (OPSEC)
 
 * [Securing Operational Technology: Understanding OT Security](opsec/securing-operational-technology-understanding-ot-security.md)
@@ -47,6 +46,10 @@
 * [Pentesting Active Directory - Kerberos (Part 1)](active-directory/pentesting-active-directory-kerberos-part-1.md)
 * [Pentesting Active Directory - Kerberos (Part 2)](active-directory/pentesting-active-directory-kerberos-part-2.md)
 * [AD vs Kerberos vs LDAP](active-directory/ad-vs-kerberos-vs-ldap.md)
+
+***
+
+* [KVM](kvm.md)
 
 ## Large Language Models (LLMs)
 
