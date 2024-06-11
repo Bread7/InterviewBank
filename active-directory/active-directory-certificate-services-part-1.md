@@ -60,7 +60,7 @@ While integrating a CA with AD, it's important to consider security implications
 
 ## NTAuthCertificates
 
-When store ADCS, this object called NTAuthCertificates is created inside active directory schema and contains field called CA Certficates and it contains list of CA that are **trusted for authentication**&#x20;
+When install ADCS, this object called NTAuthCertificates is created inside active directory schema and contains field called CA Certficates and it contains list of CA that are **trusted for authentication**&#x20;
 
 <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
