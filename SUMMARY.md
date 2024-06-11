@@ -46,6 +46,7 @@
 * [Pentesting Active Directory - Kerberos (Part 1)](active-directory/pentesting-active-directory-kerberos-part-1.md)
 * [Pentesting Active Directory - Kerberos (Part 2)](active-directory/pentesting-active-directory-kerberos-part-2.md)
 * [AD vs Kerberos vs LDAP](active-directory/ad-vs-kerberos-vs-ldap.md)
+* [Active Directory Certificate Services Part 1](active-directory/active-directory-certificate-services-part-1.md)
 
 ***
 
