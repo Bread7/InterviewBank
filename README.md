@@ -35,4 +35,5 @@ Any enquiries or if you wish to contact us privately, this is our email [greenha
 | **Ong Zheng Jie**  | [Bread7](https://github.com/Bread7)     |
 | **Chua Tian Le**   | [ctianle](https://github.com/ctianle)   |
 | **Koh Rui Heng**   | [n0mi1k](https://github.com/n0mi1k)     |
+| **Jospeh Lim**     |                                         |
 
