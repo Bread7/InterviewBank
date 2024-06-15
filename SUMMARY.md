@@ -22,6 +22,7 @@
   * [API Principles](web/api/principles.md)
 * [Simple bypass PHP](web/simple-bypass-php.md)
 * [Server-side Template Injection (SSTI)](web/server-side-template-injection-ssti.md)
+* [Javascript Object and Inheritance](web/javascript-object-and-inheritance.md)
 
 ## Operational Security (OPSEC)
 
