@@ -134,6 +134,9 @@ craft a sample .`dockerignore` file.
 # Python images
 FROM python:3.9
 
+# Copying all current files to /app
+COPY . /app
+
 # update and install package
 RUN apt-get update
 RUN apt-get install -y curl
@@ -147,9 +150,6 @@ RUN pip install requests
 RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 RUN unzip awscliv2.zip
 RUN sudo ./aws/install
-
-# Copying all current files to /app
-COPY . /app
 
 # Setting the working directory
 WORKDIR /app
