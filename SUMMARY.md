@@ -50,6 +50,7 @@
 * [Pentesting Active Directory - Kerberos (Part 2)](active-directory/pentesting-active-directory-kerberos-part-2.md)
 * [AD vs Kerberos vs LDAP](active-directory/ad-vs-kerberos-vs-ldap.md)
 * [Active Directory Certificate Services Part 1](active-directory/active-directory-certificate-services-part-1.md)
+* [Unconstrained Delegation](active-directory/unconstrained-delegation.md)
 
 ***
 
@@ -85,6 +86,7 @@
 
 * [Overview](docker/overview.md)
 * [Daemon Socket](docker/daemon-socket.md)
+* [Tips to reduce docker size](docker/tips-to-reduce-docker-size.md)
 
 ## Blockchain
 
