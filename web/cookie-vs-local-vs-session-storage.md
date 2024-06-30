@@ -61,6 +61,12 @@ As a defense in depth measure, use cookie prefixes to assert specific facts abou
 
 The browser will reject cookies with these prefixes that don't comply with their restrictions. This ensures that subdomain-created cookies with prefixes are either confined to a subdomain or ignored completely. As the application server only checks for a specific cookie name when determining if the user is authenticated or a CSRF token is correct, this effectively acts as a defense measure against session fixation.
 
+
+
+## Author
+
+[Ik0nw](https://github.com/Ik0nw/)
+
 ## Interview Question
 
 1\) If you duplicate a tab, what happen to the SessionStorage?
