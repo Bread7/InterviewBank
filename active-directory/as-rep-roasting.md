@@ -72,7 +72,7 @@ Ik0nw
 
 4\) Which step does the AS\_REQ Roasting skip to obtain the ticket?
 
-5\) Here is some log file, are you able to identify what is the timing the attacker launch AS-REP Roasting attacks? (Challenge from hackthebox Sherlock)
+5\) Here is some windows security event file, are you able to identify what is the timing the attacker launch AS-REP Roasting attacks? (Challenge from hackthebox Sherlock)
 
 6\) Which account does the attacker target?
 
