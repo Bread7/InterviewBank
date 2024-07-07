@@ -53,6 +53,7 @@
 * [AD vs Kerberos vs LDAP](active-directory/ad-vs-kerberos-vs-ldap.md)
 * [Active Directory Certificate Services Part 1](active-directory/active-directory-certificate-services-part-1.md)
 * [Unconstrained Delegation](active-directory/unconstrained-delegation.md)
+* [AS-REP Roasting](active-directory/as-rep-roasting.md)
 
 ***
 
