@@ -45,6 +45,10 @@ Currently patches had been rolled out to make it such that the feature would no 
 * What measures are in place to ensure that sensitive information within the snapshots is not exposed?
 * If I were to make a policy that our company shall have this service installed on all our machines, what steps should be taken to secure it?
 
+Author: [`Beckham`](https://github.com/Ninjarku)🐱‍👤
+
+
+
 References
 
 * https://github.com/xaitax/TotalRecall
