@@ -80,6 +80,7 @@
 * [Log4J Vulnerability (CVE-2021-44228)](cve/log4j-vulnerability-cve-2021-44228.md)
 * [SolarWinds Hack (CVE-2020-10148)](cve/log4j-vulnerability-cve-2021-44228-1.md)
 * [PHP CGI RCE (CVE-2024-4577)](cve/php-cgi-rce-cve-2024-4577.md)
+* [Windows Recall](cve/windows-recall.md)
 
 ## Software Architecture
 
