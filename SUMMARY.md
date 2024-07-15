@@ -25,7 +25,6 @@
 * [Javascript Object and Inheritance](web/javascript-object-and-inheritance.md)
 * [HTTP/2](web/http2.md)
 * [Cookie vs Local vs session Storage](web/cookie-vs-local-vs-session-storage.md)
-* [REDIS](web/redis.md)
 
 ## Operational Security (OPSEC)
 
@@ -44,6 +43,7 @@
 * [Mysql VS redis](devsecops/mysql-and-redis.md)
 * [Kubernetes (k8s)](devsecops/kubernetes-k8s.md)
 * [How MySQL executes query](devsecops/how-mysql-executes-query.md)
+* [REDIS](devsecops/redis.md)
 
 ## Active Directory
 
@@ -73,6 +73,7 @@
 
 * [Indicators of Compromise](blue-team/indicators-of-compromise.md)
 * [Methods to prevent Email domain spoofing](blue-team/methods-to-prevent-email-domain-spoofing.md)
+* [Windows Prefetching](blue-team/windows-prefetching.md)
 
 ## CVE
 

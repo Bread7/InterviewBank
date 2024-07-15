@@ -12,7 +12,7 @@ Unlike NoSQL databases such as MongoDB and PostgreSQL, REDIS keeps its data in m
 
 NoSQL (“Not Only SQL”) describes databases that, unlike SQL, are non-relational, and cannot be organized in tables, among other things. Therefore, these approaches can also be distributed across different computer systems and are highly scalable. Suitable for most Big Data applications.
 
-Since REDIS holds data in memory, it is good for very fast reads and writes. This means good performance in speed-reliant services such as [`tokens`](jwt/) management, one-time pin storages, and lightweight checks.
+Since REDIS holds data in memory, it is good for very fast reads and writes. This means good performance in speed-reliant services such as [`tokens`](../web/jwt/) management, one-time pin storages, and lightweight checks.
 
 ## So means cannot use hard disk?
 

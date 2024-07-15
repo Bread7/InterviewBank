@@ -11,12 +11,11 @@ description: >-
 
 A continuous integration and continuous delivery/deployment (CI/CD) pipeline is a series of steps that software delivery undergoes from code creation to deployment. Foundational to [DevOps](https://www.paloaltonetworks.com/cyberpedia/what-is-devops), CI/CD streamlines application development through automation of repetitive tasks, which enables early bug detection, reduces manual errors, and accelerates software delivery.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 [https://www.paloaltonetworks.com/cyberpedia/what-is-the-ci-cd-pipeline-and-ci-cd-security](https://www.paloaltonetworks.com/cyberpedia/what-is-the-ci-cd-pipeline-and-ci-cd-security)\
 \
-There are 4 phases to a Pipeline:\
-
+There are 4 phases to a Pipeline:\\
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p><a href="https://allcloud.io/wp-content/uploads/2017/08/sourcebuild.jpg">https://allcloud.io/wp-content/uploads/2017/08/sourcebuild.jpg</a></p></figcaption></figure>
 
@@ -41,8 +40,7 @@ There are 4 phases to a Pipeline:\
 
 `git config --global commit.gpgsign true`
 
-One of the main functions of the CI/CD pipeline is to test code before deployment to production. This includes security testing, designed to identify vulnerabilities in the code before they are exposed to potential exploitation.\
-
+One of the main functions of the CI/CD pipeline is to test code before deployment to production. This includes security testing, designed to identify vulnerabilities in the code before they are exposed to potential exploitation.\\
 
 2. **Build Phase**:\
    During the build stage, the CI/CD pipeline compiles the source code and creates executable artifacts. The build stage may also involve packaging the code into a Docker container or another format suitable for deployment. The build process should be repeatable and consistent to provide reliability.\
@@ -55,12 +53,9 @@ One of the main functions of the CI/CD pipeline is to test code before deploymen
 
 `#Dockerfile for building in an isolated environment`
 
-`FROM node:14 AS build WORKDIR /usr/src/app COPY package*.json ./ RUN npm install COPY . . RUN npm run build`\
-
+`FROM node:14 AS build WORKDIR /usr/src/app COPY package*.json ./ RUN npm install COPY . . RUN npm run build`\\
 
 Code within a CI/CD pipeline must have access to certain data and resources to build a functioning image for testing. Pipeline access controls limit pipelines’ access to only what is needed for their roles, minimizing the potential impacts if malicious code is executed within the pipeline.
-
-
 
 3. **Automated Testing Phase**:\
    The test phase of the CI/CD pipeline involves running a series of automated tests on the built artifacts. Tests can include unit tests, integration tests, and end-to-end tests. Test automation is crucial at this stage to quickly identify and fix issues.\
@@ -96,17 +91,15 @@ A canary release is a strategy where a new version of an application is rolled o
 
 **How It Works:**
 
-Blue and Green Environments: There are two production environments (Blue - current version, Green - new version). \
+Blue and Green Environments: There are two production environments (Blue - current version, Green - new version).\
 \
-Deployment: The new version of the application is deployed to the Green environment. \
+Deployment: The new version of the application is deployed to the Green environment.\
 \
 Testing: The Green environment is tested thoroughly. This environment is identical to Blue, ensuring realistic testing conditions.\
 \
 Switch Over: Once the new version is verified, the traffic is switched from the Blue environment to the Green environment.\
 \
 Rollback Plan: If anything goes wrong, traffic can be immediately switched back to the Blue environment.
-
-
 
 ### Best Practices and Securing the CI/CD Pipeline
 
@@ -121,7 +114,7 @@ CI/CD pipelines and the applications that they work with face a variety of poten
 
 **Now basically what is CI/CD????**
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p><a href="https://media.licdn.com/dms/image/D4D12AQEYIeuQxtU24w/article-cover_image-shrink_600_2000/0/1673462246819?e=2147483647&#x26;v=beta&#x26;t=5xow7rhHwxge_UoNgb_fY0XlIh8lyvZqf920xwIkH70">https://media.licdn.com/dms/image/D4D12AQEYIeuQxtU24w/article-cover_image-shrink_600_2000/0/1673462246819?e=2147483647&#x26;v=beta&#x26;t=5xow7rhHwxge_UoNgb_fY0XlIh8lyvZqf920xwIkH70</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p><a href="https://media.licdn.com/dms/image/D4D12AQEYIeuQxtU24w/article-cover_image-shrink_600_2000/0/1673462246819?e=2147483647&#x26;v=beta&#x26;t=5xow7rhHwxge_UoNgb_fY0XlIh8lyvZqf920xwIkH70">https://media.licdn.com/dms/image/D4D12AQEYIeuQxtU24w/article-cover_image-shrink_600_2000/0/1673462246819?e=2147483647&#x26;v=beta&#x26;t=5xow7rhHwxge_UoNgb_fY0XlIh8lyvZqf920xwIkH70</a></p></figcaption></figure>
 
 Now that you have a general understanding how Pipeline Systems and Security works. Take a look and answer these questions:
 
@@ -139,4 +132,4 @@ If yall want more information regarding this, since many companies make use of t
 
 ## Author
 
-- [Nikhil](https://github.com/KR0N0S99)
+* [Nikhil](https://github.com/KR0N0S99)

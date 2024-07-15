@@ -70,9 +70,9 @@ More directive please refer to the
 
 In default, when CSP is trigger the page will show the script is refused to loaded due to CSP.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Chrome</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>Chrome</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Firefox</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Firefox</p></figcaption></figure>
 
 Default reports will not be enabled, it need to define the report-ending for headers (report-uri)
 
