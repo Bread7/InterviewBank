@@ -74,3 +74,17 @@ after victim1 open up the malicious url shares, it will use the hash&#x20;
 ## Author
 
 Ik0nw
+
+
+
+## Interview Question
+
+1\) Other than abusing the .URL, any other methods that enable force authentication to smb&#x20;
+
+2\) What are the ways to defend smb relay attacks
+
+3\) Explain why do the victim able to automatically access the attacker's smb share just by opening the share?
+
+4\) How do defend such attacks
+
+5\) Do smbrelay able to relay the hash back to the victim itself?
