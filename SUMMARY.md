@@ -54,6 +54,7 @@
 * [Active Directory Certificate Services Part 1](active-directory/active-directory-certificate-services-part-1.md)
 * [Unconstrained Delegation](active-directory/unconstrained-delegation.md)
 * [AS-REP Roasting](active-directory/as-rep-roasting.md)
+* [NTLM Relay via SMB](active-directory/ntlm-relay-via-smb.md)
 
 ***
 
@@ -74,7 +75,6 @@
 * [Indicators of Compromise](blue-team/indicators-of-compromise.md)
 * [Methods to prevent Email domain spoofing](blue-team/methods-to-prevent-email-domain-spoofing.md)
 * [Windows Prefetching](blue-team/windows-prefetching.md)
-* [NTLM Relay via SMB](blue-team/ntlm-relay-via-smb.md)
 
 ## CVE
 
