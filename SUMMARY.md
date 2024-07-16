@@ -74,6 +74,7 @@
 * [Indicators of Compromise](blue-team/indicators-of-compromise.md)
 * [Methods to prevent Email domain spoofing](blue-team/methods-to-prevent-email-domain-spoofing.md)
 * [Windows Prefetching](blue-team/windows-prefetching.md)
+* [NTLM Relay via SMB](blue-team/ntlm-relay-via-smb.md)
 
 ## CVE
 
