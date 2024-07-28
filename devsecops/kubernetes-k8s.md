@@ -16,7 +16,7 @@ The name Kubernetes comes from the Greek word meaning "helmsman" or "pilot". The
 
 ## Different deployment solution
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Traditional deployment:
 

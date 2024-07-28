@@ -55,6 +55,7 @@
 * [Unconstrained Delegation](active-directory/unconstrained-delegation.md)
 * [AS-REP Roasting](active-directory/as-rep-roasting.md)
 * [NTLM Relay via SMB](blue-team/ntlm-relay-via-smb.md)
+* [Secure C2 Infrastructure](active-directory/secure-c2-infrastructure.md)
 
 ***
 

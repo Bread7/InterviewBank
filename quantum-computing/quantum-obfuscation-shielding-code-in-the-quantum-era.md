@@ -36,7 +36,7 @@ Okay so in this image, all qubits start at the state of '0'. What an 'X' gate do
 Below is my take on an obfuscation that maintains semantic accuracy.\
 
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>This circuit also represents 15.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>This circuit also represents 15.</p></figcaption></figure>
 
 As you can see, the circuit looks far more complex however I have tested the output and it remains the same as the original circuit. This is a technique of gate operations simply canceling each other out. As for the execution times between both?
 

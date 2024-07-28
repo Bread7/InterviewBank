@@ -87,7 +87,7 @@ Utilizing this feature, we can reduce the previous code as follows.
 <?=`id`;
 ```
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Interview Question
 
