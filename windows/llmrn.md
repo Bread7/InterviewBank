@@ -23,7 +23,7 @@ Beaware it needed administrator privilege to edit (Best to open administrator pr
 
 3\) The correct hostname workstation will reply with the packet to the requestor.
 
-Below is the example of my 2 VM trying to ping using domain name
+Below is the example of my 2 VM in local network trying to ping using **HOSTNAME ONLY**
 
 <figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
