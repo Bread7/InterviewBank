@@ -45,21 +45,18 @@
 * [How MySQL executes query](devsecops/how-mysql-executes-query.md)
 * [REDIS](devsecops/redis.md)
 
-## Active Directory
+## Windows
 
-* [Pentesting Active Directory - Active Directory 101](active-directory/active-directory-101.md)
-* [Pentesting Active Directory - Kerberos (Part 1)](active-directory/pentesting-active-directory-kerberos-part-1.md)
-* [Pentesting Active Directory - Kerberos (Part 2)](active-directory/pentesting-active-directory-kerberos-part-2.md)
-* [AD vs Kerberos vs LDAP](active-directory/ad-vs-kerberos-vs-ldap.md)
-* [Active Directory Certificate Services Part 1](active-directory/active-directory-certificate-services-part-1.md)
-* [Unconstrained Delegation](active-directory/unconstrained-delegation.md)
-* [AS-REP Roasting](active-directory/as-rep-roasting.md)
-* [NTLM Relay via SMB](blue-team/ntlm-relay-via-smb.md)
-* [Secure C2 Infrastructure](active-directory/secure-c2-infrastructure.md)
-
-***
-
-* [KVM](kvm.md)
+* [Pentesting Active Directory - Active Directory 101](windows/active-directory-101.md)
+* [Pentesting Active Directory - Kerberos (Part 1)](windows/pentesting-active-directory-kerberos-part-1.md)
+* [Pentesting Active Directory - Kerberos (Part 2)](windows/pentesting-active-directory-kerberos-part-2.md)
+* [AD vs Kerberos vs LDAP](windows/ad-vs-kerberos-vs-ldap.md)
+* [Active Directory Certificate Services Part 1](windows/active-directory-certificate-services-part-1.md)
+* [Unconstrained Delegation](windows/unconstrained-delegation.md)
+* [AS-REP Roasting](windows/as-rep-roasting.md)
+* [NTLM Relay via SMB](windows/ntlm-relay-via-smb.md)
+* [Secure C2 Infrastructure](windows/secure-c2-infrastructure.md)
+* [LLMRN](windows/llmrn.md)
 
 ## Large Language Models (LLMs)
 
@@ -88,6 +85,7 @@
 ## Software Architecture
 
 * [Microservices](software-architecture/microservices/overview.md)
+* [KVM](software-architecture/kvm.md)
 
 ## Docker
 

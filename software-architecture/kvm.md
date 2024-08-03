@@ -4,7 +4,7 @@
 
 Kernel-based Virtual Machine (KVM) is a software feature installable on physical Linux machines to create virtual machines, it is a Linux operating system component that provides native support for virtual machines on Linux.
 
-<figure><img src=".gitbook/assets/Pasted image 20240606012010.png" alt=""><figcaption><p>KVM Architecture</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20240606012010.png" alt=""><figcaption><p>KVM Architecture</p></figcaption></figure>
 
 ## What is the difference between KVM and VMware?
 
