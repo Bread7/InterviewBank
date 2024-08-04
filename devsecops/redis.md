@@ -65,7 +65,7 @@ Questions to ponder:
 * How does Redis handle data eviction when it runs out of memory? (Can do a quick search)
 * What security measures should be taken when deploying Redis?
 
-#### Author: [`Beckham`](https://github.com/Ninjarku)🐱‍👤
+#### Author: [`Ninjarku`](https://github.com/Ninjarku)🐱‍👤
 
 References
 

@@ -84,7 +84,7 @@ Go try out the [JWT Challenge](https://greenhat.gitbook.io/interview-bank/web/jw
 * Can you or should you put confidential information in JWS?
 * Who can create JWS? Client or Server?
 
-Author: [`Beckham`](https://github.com/Ninjarku)🐱‍👤
+Author: [`Ninjarku`](https://github.com/Ninjarku)🐱‍👤
 
 ## Source:
 

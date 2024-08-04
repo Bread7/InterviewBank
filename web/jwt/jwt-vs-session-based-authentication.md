@@ -124,7 +124,7 @@ Additional Questions:
 * How does JWT ensure the integrity of the data it carries?
 * How does a server validate a JWT token?
 
-#### Author: [`Beckham`](https://github.com/Ninjarku)🐱‍👤
+#### Author: [`Ninjarku`](https://github.com/Ninjarku)🐱‍👤
 
 ### References
 

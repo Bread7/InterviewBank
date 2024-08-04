@@ -97,7 +97,7 @@ If unused, like the Initialization Vector, it will also be an empty section.
 * Should you and can you store sensitive information in JWE?
 * What are some ways you would implement JWE securely in a E-commerce environment?
 
-Author [`Beckham`](https://github.com/Ninjarku)🐱‍👤
+Author [`Ninjarku`](https://github.com/Ninjarku)🐱‍👤
 
 ### References:
 
