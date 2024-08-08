@@ -44,6 +44,7 @@
 * [Kubernetes (k8s)](devsecops/kubernetes-k8s.md)
 * [How MySQL executes query](devsecops/how-mysql-executes-query.md)
 * [REDIS](devsecops/redis.md)
+* [Difference between cache and buffer](devsecops/difference-between-cache-and-buffer.md)
 
 ## Windows
 
