@@ -27,5 +27,7 @@ For buffers, the concern is not about persistence but about when to send the dat
 * **Cache** is designed to increase the speed of reading from I/O devices and RAM by storing frequently accessed data closer to the CPU.
 * **Buffer** is designed to increase the efficiency of data transfer between RAM and I/O devices (like hard disks) by accumulating data and reducing the frequency of read/write operations.
 
+## Author
 
+Ik0nw
 
