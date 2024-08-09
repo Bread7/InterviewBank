@@ -108,3 +108,7 @@
 ## Cyber Teams
 
 * [Introduction to Purple Teaming](cyber-teams/introduction-to-purple-teaming.md)
+
+## Malware
+
+* [Dynamic Sandbox Limitations](malware/dynamic-sandbox-limitations.md)
