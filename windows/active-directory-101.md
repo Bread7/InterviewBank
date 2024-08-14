@@ -32,7 +32,7 @@ A group of objects that share the same AD database is called a **domain**. One o
 
 Objects within a domain can be grouped into organizational units (OUs) to simplify administration and policy management. OUs can be created according to functional, geographical or business structures. Group policies can then be applied to the OUs for simple administration.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Source: AD Structure - Source Microsoft.com Docs</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>Source: AD Structure - Source Microsoft.com Docs</p></figcaption></figure>
 
 **Benefits of using AD**
 

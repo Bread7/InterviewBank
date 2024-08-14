@@ -16,7 +16,7 @@ The name Kubernetes comes from the Greek word meaning "helmsman" or "pilot". The
 
 ## Different deployment solution
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Traditional deployment:
 
@@ -38,7 +38,7 @@ Kubernetes (k8s) provides centralized control of clusters, allowing you to manag
 
 ## Kubernetes Cluster Architecture
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Master
 
@@ -50,7 +50,7 @@ Worker nodes can be virtual machines or physical computers where tasks are run, 
 
 ### POD
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In k8s, pod is the smallest scheduling unit. A Pod can contain one or more closely related containers that share networking and storage resources and run on the same host. Pods provide an abstraction layer that allows applications to be independent of underlying physical or virtual machine.
 

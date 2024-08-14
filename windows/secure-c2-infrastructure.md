@@ -2,7 +2,7 @@
 
 The following high-level diagram illustrates a secure C2 (Command and Control) infrastructure:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Resource from CRTO2</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Resource from CRTO2</p></figcaption></figure>
 
 ## **Key Components:**
 

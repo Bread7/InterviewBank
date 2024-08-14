@@ -114,7 +114,7 @@ CI/CD pipelines and the applications that they work with face a variety of poten
 
 **Now basically what is CI/CD????**
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p><a href="https://media.licdn.com/dms/image/D4D12AQEYIeuQxtU24w/article-cover_image-shrink_600_2000/0/1673462246819?e=2147483647&#x26;v=beta&#x26;t=5xow7rhHwxge_UoNgb_fY0XlIh8lyvZqf920xwIkH70">https://media.licdn.com/dms/image/D4D12AQEYIeuQxtU24w/article-cover_image-shrink_600_2000/0/1673462246819?e=2147483647&#x26;v=beta&#x26;t=5xow7rhHwxge_UoNgb_fY0XlIh8lyvZqf920xwIkH70</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p><a href="https://media.licdn.com/dms/image/D4D12AQEYIeuQxtU24w/article-cover_image-shrink_600_2000/0/1673462246819?e=2147483647&#x26;v=beta&#x26;t=5xow7rhHwxge_UoNgb_fY0XlIh8lyvZqf920xwIkH70">https://media.licdn.com/dms/image/D4D12AQEYIeuQxtU24w/article-cover_image-shrink_600_2000/0/1673462246819?e=2147483647&#x26;v=beta&#x26;t=5xow7rhHwxge_UoNgb_fY0XlIh8lyvZqf920xwIkH70</a></p></figcaption></figure>
 
 Now that you have a general understanding how Pipeline Systems and Security works. Take a look and answer these questions:
 

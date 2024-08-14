@@ -8,7 +8,7 @@ Prefetching is a Windows memory management process in which the operating system
 
 The .pf file contains a list of resources, including files and directories that the executable referenced during execution, which is used to pre-load those resources the next time the application is executed.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Prefetch Directory Listing</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Prefetch Directory Listing</p></figcaption></figure>
 
 ### **What is the use of Prefetch Files?**
 
@@ -81,7 +81,7 @@ PECmd.exe -d prefetch --csv . --csvf prefetch.csv
 
 pointing the directory to prefetch folders and process them output it in csv format
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Scrolling abit we found the tool to be **Rubeus.exe** .&#x20;
 
@@ -93,7 +93,7 @@ PECmd.exe -f prefetch\RUBEUS.EXE-5873E24B.pf
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### _When was the tool executed to dump credentials?_
 
@@ -101,7 +101,7 @@ Since we know the attacker uses Rubeus.exe&#x20;
 
 Pecmd also provides the timestamp of the application is executed
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Author
 
