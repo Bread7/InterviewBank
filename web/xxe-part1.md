@@ -296,6 +296,10 @@ In the XXE, we just perform normally to load the external DTD with parameter ent
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Result</p></figcaption></figure>
 
+## Author
+
+Ik0nw
+
 ## Interview Questions
 
 1）What is the difference between System and public identifier
