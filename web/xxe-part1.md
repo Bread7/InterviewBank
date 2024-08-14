@@ -1,4 +1,4 @@
-# XXE Part1
+# XML External Entity (XXE)
 
 XML External entity(XXE) injection is a vulnerability that allows attacker to interfere with an application's processing of XML data. It often allows an attacker to view files on the application server filesystem, and to interact with any back-end or external ssyytems that application can access.
 
@@ -306,5 +306,7 @@ In the XXE, we just perform normally to load the external DTD with parameter ent
 
 4\) What is the core problem of XXE?
 
-5\) How to mitigate XXE
+5\) If your payload does not return response, How do you check XXE is working?
+
+6\) How to mitigate XXE
 

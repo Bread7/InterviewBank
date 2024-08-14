@@ -25,7 +25,7 @@
 * [Javascript Object and Inheritance](web/javascript-object-and-inheritance.md)
 * [HTTP/2](web/http2.md)
 * [Cookie vs Local vs session Storage](web/cookie-vs-local-vs-session-storage.md)
-* [XML External Entity (XXE)](web/xml-external-entity-xxe.md)
+* [XML External Entity (XXE)](web/xxe-part1.md)
 
 ## Operational Security (OPSEC)
 
