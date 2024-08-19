@@ -60,6 +60,11 @@
 * [Secure C2 Infrastructure](windows/secure-c2-infrastructure.md)
 * [LLMRN](windows/llmrn.md)
 
+***
+
+* [UNIX](unix/README.md)
+  * [Setuid](unix/setuid.md)
+
 ## Large Language Models (LLMs)
 
 * [Tokens](llm/tokens.md)
