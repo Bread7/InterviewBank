@@ -26,6 +26,7 @@
 * [HTTP/2](web/http2.md)
 * [Cookie vs Local vs session Storage](web/cookie-vs-local-vs-session-storage.md)
 * [XML External Entity (XXE)](web/xxe-part1.md)
+* [What happened when enter domain name in browser](web/what-happened-when-enter-domain-name-in-browser.md)
 
 ## Operational Security (OPSEC)
 
@@ -59,6 +60,7 @@
 * [NTLM Relay via SMB](windows/ntlm-relay-via-smb.md)
 * [Secure C2 Infrastructure](windows/secure-c2-infrastructure.md)
 * [LLMRN](windows/llmrn.md)
+* [Windows lateral movement](windows/windows-lateral-movement.md)
 
 ## UNIX
 
