@@ -98,3 +98,9 @@ After the browser receives the HTML content, it begins to parse and render the p
 2. **Parsing CSS**: The browser converts the CSS into style rules and applies them to the DOM tree, forming a render tree.
 3. **Executing JavaScript**: If the page contains JavaScript, the browser will execute these scripts, which may dynamically modify the DOM or CSS.
 4. **Layout and Painting**: The browser calculates the position and size of each element based on the structure of the render tree and then paints the page onto the screen.
+
+
+
+## Author
+
+Ik0nw
