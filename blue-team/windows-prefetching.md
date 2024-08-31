@@ -8,7 +8,7 @@ Prefetching is a Windows memory management process in which the operating system
 
 The .pf file contains a list of resources, including files and directories that the executable referenced during execution, which is used to pre-load those resources the next time the application is executed.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Prefetch Directory Listing</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Prefetch Directory Listing</p></figcaption></figure>
 
 ### **What is the use of Prefetch Files?**
 

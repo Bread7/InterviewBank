@@ -292,9 +292,9 @@ Uses the exfiltrate entity, so that its value is evaluated by requesting the spe
 
 In the XXE, we just perform normally to load the external DTD with parameter entites
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>XML request</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>XML request</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Result</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Result</p></figcaption></figure>
 
 ## Author
 

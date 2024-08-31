@@ -30,17 +30,17 @@ Research in quantum obfuscation is still in its infancy, but significant strides
 The images are below are examples of my own quantum circuit obfuscation done on a classical FizzBuzz Program. (No need try to understand HAHA its complex but I thought yall might be interested to see what a quantum circuit looks like)\
 
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>This Circuit represents the number 15</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>This Circuit represents the number 15</p></figcaption></figure>
 
 Okay so in this image, all qubits start at the state of '0'. What an 'X' gate does is simply inverse it. Since we have 4 bits all at '1' also known as '1111'. The decimal value would be 15.\
 Below is my take on an obfuscation that maintains semantic accuracy.\
 
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>This circuit also represents 15.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>This circuit also represents 15.</p></figcaption></figure>
 
 As you can see, the circuit looks far more complex however I have tested the output and it remains the same as the original circuit. This is a technique of gate operations simply canceling each other out. As for the execution times between both?
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>An increase that is negligible in quantum computing</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>An increase that is negligible in quantum computing</p></figcaption></figure>
 
 But of course efficiency can always be improved....(I'm still researchin howw )
 

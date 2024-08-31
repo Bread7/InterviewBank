@@ -16,7 +16,7 @@ Purple is the result of red and blue mixing together. Essentially, the purple te
 
 Since the purple team consists of red and blue team members. They continue to do what they are doing. The red team will attack using real-world tools, tactics and procedures (TTP). The blue team will identify, assess and respond to the red team's attack TTPs. Both teams will collaborate throughout the exercise.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>A nice diagram taken from Craig Cloud IT Pro</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>A nice diagram taken from Craig Cloud IT Pro</p></figcaption></figure>
 
 ### Ok, why is there a need for a purple team then?
 

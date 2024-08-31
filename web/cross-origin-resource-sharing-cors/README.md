@@ -6,7 +6,7 @@ Cross-origin resource sharing (CORS) is browser mechanism which enables controll
 
 However, it also provides potential for cross-domain attacks, if a websites CORS is poorly configured, it does not protect against CSRF
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ## Access-Control-Allow-Origin Header
 
