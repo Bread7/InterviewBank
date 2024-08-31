@@ -14,7 +14,7 @@
   * [JWS](web/jwt/jws.md)
 * [Content Security Policy (CSP)](web/content-security-policy-csp.md)
 * [Same-origin Policy (SOP)](web/same-origin-policy-sop.md)
-* [Cross-Origin Resource Sharing (CORS)](web/cross-origin-resource-sharing-cors/README.md)
+* [Cross-Origin Resource Sharing (CORS)](web/cross-origin-resource-sharing-cors.md)
   * [Exploiting CORS](web/cross-origin-resource-sharing-cors/exploiting-cors.md)
 * [HTTP Strict Transport Security (HSTS)](web/http-strict-transport-security-hsts.md)
 * [SQL Injection (SQLi)](web/sql-injection-sqli.md)
