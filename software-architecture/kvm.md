@@ -79,7 +79,7 @@ As you can see, the disadvantages of Paravirtualization greatly outweighs the ad
 * What are some operating systems that support KVM?&#x20;
 * Explain the difference between full virtualization and paravirtualization. Where does KVM fit in?
 
-Author: [`Beckham`](https://github.com/Ninjarku)🐱‍👤
+Author: [`Ninjarku`](https://github.com/Ninjarku)🐱‍👤
 
 ## Sources:&#x20;
 
