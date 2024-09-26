@@ -62,6 +62,7 @@
 * [Secure C2 Infrastructure](windows/secure-c2-infrastructure.md)
 * [LLMRN](windows/llmrn.md)
 * [Windows lateral movement](windows/windows-lateral-movement.md)
+* [Constrained Delegation](windows/constrained-delegation.md)
 
 ## UNIX
 
