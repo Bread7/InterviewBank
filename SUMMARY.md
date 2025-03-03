@@ -63,6 +63,8 @@
 * [LLMRN](windows/llmrn.md)
 * [Windows lateral movement](windows/windows-lateral-movement.md)
 * [Constrained Delegation](windows/constrained-delegation.md)
+* [Resource-Based Constrained Delegation](windows/resource-based-constrained-delegation.md)
+* [P Invoke in c#](windows/p-invoke-in-c.md)
 
 ## UNIX
 
