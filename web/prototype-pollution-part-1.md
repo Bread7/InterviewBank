@@ -2,17 +2,15 @@
 description: Part 1 of exploring the Prototype Pollution vulnerability.
 ---
 
-# Prototype Pollution
+# Prototype Pollution - Part 1
 
 ## What is Prototype Pollution?
 
 Prototype Pollution is a JavaScript vulnerability that allows attackers to add arbitrary properties to global object prototypes which may then be inherited by user-defined objects.
 
-<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption><p>A typical example of Prototype Pollution, Credits: PortSwigger</p></figcaption></figure>
-
 Just to note, Prototype Pollution **cannot** be **exploited** as a **standalone** vulnerability. In fact, when it was discovered, many security researchers thought that the way that it can be exploited is very theoretical and it won't happen in reality but history has proven them wrong :cry:. So why do researchers feel that it is theoretical? It is because Prototype Pollution allows attacker to control properties of objects that would otherwise be inaccessible. **However**, if the application handles an attacker-controlled property in an **unsafe** way, Prototype Pollution could be chained with other vulnerabilities and it can lead to deadly consequences! If it is client-slide, it will usually lead to a DOM XSS vulnerability. If it is server-side, it can lead to **remote code execution (RCE)**.
 
-## So how does Prototype Pollution works?
+## Huh??? What is a prototype? What does it do? Why is there such a thing? :thinking:
 
 To understand how it works, we need to be familiar with how prototype and inheritance work in JavaScript. So Imma give a crash course.
 
@@ -70,9 +68,17 @@ Object.getPrototypeOf(myNumber); // Returns Number.prototype
 
 As we know, these objects will automatically inherit all of the properties of their assigned prototype, unless they already have their own property with the same key. This helps developers to create new objects that can be reuse the properties and methods of existing objects.
 
-### How can we access an object's prototype?
+#### Prototype Chain
 
-Each object has a special property that you can use to access its prototype. We can use \_\_proto\_\_! \_\_proto\_\_ serves as both the getter and setter for the object's prototype. This means that you can use it to read the prototype and even change it!
+As everything in JavaScript is an object, this chain leads back to the top level `Object.prototype`, whose prototype is a `null`.&#x20;
+
+<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption><p>Credits: PortSwigger</p></figcaption></figure>
+
+Another thing we should take note of is that objects don't just inherit properties from their immediate prototype, they also inherit properties from all the objects above them in the prototype chain.&#x20;
+
+#### How can we access an object's prototype?
+
+Each object has a special property that you can use to access its prototype. We can use `__proto__`! `__proto__` serves as both the getter and setter for the object's prototype. This means that you can use it to read the prototype and even change it!
 
 ```javascript
 username.__proto__
@@ -89,5 +95,35 @@ username.__proto__.__proto__.__proto__        // null
 
 ### Modifying an object's prototype
 
-Since&#x20;
+Since \_\_proto\_\_ is used as a getter and setter, it is possible to modify JavaScript's built-in prototypes. This also means that developers can customize or override the behaviour of built-in methods and even add new methods to perform useful operations.
 
+## So how does Prototype Pollution works?
+
+Prototype pollution vulnerabilities arise when a JavaScript function **recursively** merges an object that contains **user-controllable** properties into an existing object without **sanitizing** the keys! This allows attackers to inject a property with a key like `__proto__` along with arbitrary nested properties.
+
+Because `__proto__` has a special meaning, the merge operation may assign the nested properties to the object's **prototype** instead of the target object itself! This allows the attacker to pollute the prototype with properties that contain values which can be used by the application in a dangerous way.&#x20;
+
+<figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption><p>A typical Prototype pollution attack flow Credits: PortSwigger</p></figcaption></figure>
+
+To exploit this successfully, we need a few key components:
+
+* A prototype pollution source - This is any **input** that enables you to poison the prototype objects with arbitrary properties.
+* A sink - a JavaScript function or DOM element that **enables** arbitrary code execution.
+* An exploitable gadget - Basically any properties that is passed into a sink without **proper sanitization**.&#x20;
+
+I will continue on how we can exploit Prototype Pollution in another Part 2 article.
+
+## Interview Questions
+
+* What is Prototype pollution?
+* How does prototype-inheritance model contribute to the Prototype pollution vulnerability?
+* How does the prototype chain relate to prototype pollution?
+
+## Author
+
+* Frost :snowflake:
+
+## References
+
+* [https://portswigger.net/web-security/prototype-pollution](https://portswigger.net/web-security/prototype-pollution)
+* Offsec - Advanced Web Attacks and Exploitation&#x20;
