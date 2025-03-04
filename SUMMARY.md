@@ -28,6 +28,7 @@
 * [Cookie vs Local vs session Storage](web/cookie-vs-local-vs-session-storage.md)
 * [XML External Entity (XXE)](web/xxe-part1.md)
 * [What happened when enter domain name in browser](web/what-happened-when-enter-domain-name-in-browser.md)
+* [Prototype Pollution](web/prototype-pollution.md)
 
 ## Operational Security (OPSEC)
 
