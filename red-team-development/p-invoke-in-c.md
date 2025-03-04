@@ -53,9 +53,9 @@ Like JVM, it helps to handle exceptions and ensure security.
 
 Is there the only reason why we need to use P/Invoke?
 
-The .Net runtijme already utllise P/invoke under the hood, and provided us with abstractions that runs on top, for example, if you want to start a process in .NET. We can utilise the `Start`method in the `System.Diagnostics.Process`Class. If we trace this method in the run time, it actually uses P/Invoke to call the createProcess API.&#x20;
+The .Net runtime already utllise P/invoke under the hood, and provided us with abstractions that runs on top, for example, if you want to start a process in .NET. We can utilise the `Start`method in the `System.Diagnostics.Process`Class. If we trace this method in the run time, it actually uses P/Invoke to call the createProcess API.&#x20;
 
-Howevent seens it's in a high level, it does not actually allow us to customise the data being passed into the STARTUPINFO struct and prevent us from being able to do things like start the process in suspended state.
+However it's in high level, it does not actually allow us to customise the data being passed into the STARTUPINFO struct and prevent us from being able to do things like start the process in suspended state.
 
 ## Example of P/Invoke&#x20;
 

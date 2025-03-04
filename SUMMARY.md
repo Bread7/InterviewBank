@@ -1,6 +1,9 @@
 # Table of contents
 
 * [Interview Bank](README.md)
+* [Red team Development](red-team-development/README.md)
+  * [Secure C2 Infrastructure](red-team-development/secure-c2-infrastructure.md)
+  * [P Invoke in c#](red-team-development/p-invoke-in-c.md)
 
 ## Web
 
@@ -60,12 +63,10 @@
 * [Unconstrained Delegation](windows/unconstrained-delegation.md)
 * [AS-REP Roasting](windows/as-rep-roasting.md)
 * [NTLM Relay via SMB](windows/ntlm-relay-via-smb.md)
-* [Secure C2 Infrastructure](windows/secure-c2-infrastructure.md)
 * [LLMRN](windows/llmrn.md)
 * [Windows lateral movement](windows/windows-lateral-movement.md)
 * [Constrained Delegation](windows/constrained-delegation.md)
 * [Resource-Based Constrained Delegation](windows/resource-based-constrained-delegation.md)
-* [P Invoke in c#](windows/p-invoke-in-c.md)
 
 ## UNIX
 
