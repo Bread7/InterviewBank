@@ -8,9 +8,9 @@ Previously we went through how objects and prototype works in JavaScript and a h
 
 ## Brief Recap
 
+<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption><p>A typical Prototype Pollution attack type Credits: PortSwigger</p></figcaption></figure>
 
-
-
+In order for prototype pollution vulnerability to work, the merge operation must be recursive, this operation will allow the user controlled properties to be assigned to the object's **prototype** instead of the object itself.&#x20;
 
 As I mentioned in Part 1, to successfully exploit prototype pollution, you need the following key components
 
@@ -62,5 +62,23 @@ So, how did this happen? The JavaScript engine actually treat `__proto__` as a g
 
 ### Prototype pollution via JSON input
 
-User-controllable objects are often derived from a JSON string using the `JSON.parse()` method.
+User-controllable objects are often derived from a JSON string using the `JSON.parse()` method. `JSON.parse()` also treats any key in the JSON object as an arbitrary string, including things like `__proto__`.&#x20;
+
+{% code title="A typical malicious JSON " %}
+```json
+{
+    "__proto__": {
+        "evilProperty": "payload"
+    }
+}
+```
+{% endcode %}
+
+Using `JSON.parse()` method, if we convert the JSON object into a JavaScript object, the resulting object will have a property with the key `__proto__`. If this object is merged into an existing object without proper key sanitization, it will lead to prototype pollution.
+
+## Prototype pollution sinks
+
+
+
+## Prototype pollution gadgets
 
