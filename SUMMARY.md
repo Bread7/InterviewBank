@@ -32,6 +32,7 @@
 * [XML External Entity (XXE)](web/xxe-part1.md)
 * [What happened when enter domain name in browser](web/what-happened-when-enter-domain-name-in-browser.md)
 * [Prototype Pollution - Part 1](web/prototype-pollution-part-1.md)
+* [Prototype Pollution - Part 2](web/prototype-pollution-part-2.md)
 
 ## Operational Security (OPSEC)
 
