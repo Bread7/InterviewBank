@@ -146,6 +146,8 @@ D/Invoke is a powerful technique with legitimate uses in software development an
 3. **Name two Windows APIs that attackers might invoke dynamically using D/Invoke.**
 4. **What are the limitations of D/Invoke? How can EDRs still detect it?**
 
+Author: [Ninjarku](https://github.com/Ninjarku)🐱‍👤
+
 ### References
 
 1. https://github.com/TheWover/DInvoke
