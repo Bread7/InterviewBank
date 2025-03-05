@@ -4,6 +4,7 @@
 * [Red team Development](red-team-development/README.md)
   * [Secure C2 Infrastructure](red-team-development/secure-c2-infrastructure.md)
   * [P Invoke in c#](red-team-development/p-invoke-in-c.md)
+  * [D Invoke](red-team-development/d-invoke.md)
 
 ## Web
 
