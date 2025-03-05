@@ -168,11 +168,11 @@ If we were to have a JSON input for a API call on a `/sample` endpoint, we can d
 
 This web application will process our payload to execute the system `whoami` command on the server hence allowing us to get RCE via prototype pollution.&#x20;
 
-**Author**
+## **Author**
 
 * Frost :snowflake:
 
-**References**
+## **References**
 
 * [https://portswigger.net/web-security/prototype-pollution](https://portswigger.net/web-security/prototype-pollution)
 * Offsec Advanced Web Attack and Exploitation
