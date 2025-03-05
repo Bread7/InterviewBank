@@ -81,7 +81,7 @@ In red team tools, this technique is often used for **stealthier API calls**, su
 * **Credential Dumping** (e.g., `Lsass` memory access via `MiniDumpWriteDump`).
 * **Defense Evasion** (e.g., unhooking EDRs by manually mapping DLLs). For example, to call `VirtualAllocEx` dynamically:
 
-```c#
+```csharp
 using System;
 using System.Runtime.InteropServices;
 using DInvoke.DynamicInvoke; // Requires DInvoke (TheWover/DInvoke) NuGet package
