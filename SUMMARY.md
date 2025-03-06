@@ -31,9 +31,9 @@
 * [Prototype Pollution - Part 1](web/prototype-pollution-part-1.md)
 * [Prototype Pollution - Part 2](web/prototype-pollution-part-2.md)
 
-## Operational Security (OPSEC)
+## OT Security
 
-* [Securing Operational Technology: Understanding OT Security](opsec/securing-operational-technology-understanding-ot-security.md)
+* [Securing Operational Technology: Understanding OT Security](ot-security/securing-operational-technology-understanding-ot-security.md)
 
 ## Quantum Computing
 

@@ -1,9 +1,5 @@
 # Securing Operational Technology: Understanding OT Security
 
-
-
-
-
 **What is Operational Technology (OT) Security?**
 
 Operational Technology (OT) refers to the hardware and software systems used to monitor and control physical devices, processes, and events in various industries like manufacturing, energy, and utilities. OT systems have traditionally been isolated from IT systems, but this boundary is becoming increasingly blurred. OT security, therefore, involves protecting these systems from cyber threats that could disrupt physical operations, potentially leading to catastrophic outcomes.
@@ -27,7 +23,7 @@ OT security strategies are multifaceted and include:
 
 **The 3 phases of OT security:**
 
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p><a href="https://verveindustrial.com/resources/blog/the-ultimate-guide-to-understanding-ot-security/">https://verveindustrial.com/resources/blog/the-ultimate-guide-to-understanding-ot-security/</a></p></figcaption></figure>
+<figure><img src="../opsec/.gitbook/assets/image%20(14).png" alt=""><figcaption><p><a href="https://verveindustrial.com/resources/blog/the-ultimate-guide-to-understanding-ot-security/">https://verveindustrial.com/resources/blog/the-ultimate-guide-to-understanding-ot-security/</a></p></figcaption></figure>
 
 **OT Security Challenges and Solutions**
 
@@ -61,10 +57,10 @@ Explain the importance of network segmentation in OT environments. How would you
 
 What role does physical access control play in OT security, and how would you enforce it?\
 \
-The link below is a write up to an OT Security CTF for whoever's interested. \
+The link below is a write up to an OT Security CTF for whoever's interested.\
 **Cheers!**\
 [https://ctftime.org/event/1148/tasks/](https://ctftime.org/event/1148/tasks/)
 
 ## Author
 
-- [Nikhil](https://github.com/KR0N0S99)
+* [Nikhil](https://github.com/KR0N0S99)
