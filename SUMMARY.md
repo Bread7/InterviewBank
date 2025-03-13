@@ -66,6 +66,7 @@
 * [Windows lateral movement](windows/windows-lateral-movement.md)
 * [Constrained Delegation](windows/constrained-delegation.md)
 * [Resource-Based Constrained Delegation](windows/resource-based-constrained-delegation.md)
+* [IFEO (lmage File Execution Options) Hijacking](windows/ifeo-lmage-file-execution-options-hijacking.md)
 
 ## UNIX
 
