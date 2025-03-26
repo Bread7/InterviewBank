@@ -87,6 +87,7 @@
 * [Secure C2 Infrastructure](red-team-development/secure-c2-infrastructure.md)
 * [P Invoke in c#](red-team-development/p-invoke-in-c.md)
 * [D Invoke](red-team-development/d-invoke.md)
+* [ExitProcess vs ExitThread](red-team-development/exitprocess-vs-exitthread.md)
 
 ## Blue Team
 
